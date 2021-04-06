@@ -130,5 +130,4 @@ dmypy.json
 
 # Project Data files
 *.csv
-*.nt
 *.txt
