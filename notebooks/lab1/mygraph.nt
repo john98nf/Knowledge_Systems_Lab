@@ -1,0 +1,24 @@
+<http://example.org/ns/tt01> <http://example.org/props/title> "$ 140000000"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/ns/tt03> <http://example.org/props/actor> <http://example.org/ns/Sean_Bean> .
+<http://example.org/ns/tt03> <http://example.org/props/actor> <http://example.org/ns/Ian_McKellen> .
+<http://example.org/ns/tt01> <http://example.org/props/director> <http://example.org/ns/Jon_Favreau> .
+<http://example.org/ns/tt03> <http://example.org/props/director> <http://example.org/ns/Peter_Jackson> .
+<http://example.org/ns/tt01> <http://example.org/props/actor> <http://example.org/ns/Jon_Favreau> .
+<http://example.org/ns/tt01> <http://example.org/props/country> <http://example.org/ns/Canada> .
+<http://example.org/ns/tt03> <http://example.org/props/title> "$ 94000000"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/ns/tt02> <http://example.org/props/title> "The_Avengers" .
+<http://example.org/ns/tt03> <http://example.org/props/actor> <http://example.org/ns/Orlando_Bloom> .
+<http://example.org/ns/tt01> <http://example.org/props/title> "Iron_Man" .
+<http://example.org/ns/tt01> <http://example.org/props/actor> <http://example.org/ns/Robert_Downey_Jr.> .
+<http://example.org/ns/tt03> <http://example.org/props/country> <http://example.org/ns/New_Zealand> .
+<http://example.org/ns/tt02> <http://example.org/props/actor> <http://example.org/ns/Chris_Evans> .
+<http://example.org/ns/tt03> <http://example.org/props/actor> <http://example.org/ns/Cate_Blanchett> .
+<http://example.org/ns/tt02> <http://example.org/props/title> "$ 220000000"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/ns/tt01> <http://example.org/props/country> <http://example.org/ns/USA> .
+<http://example.org/ns/tt02> <http://example.org/props/country> <http://example.org/ns/USA> .
+<http://example.org/ns/tt03> <http://example.org/props/actor> <http://example.org/ns/Sala_Baker> .
+<http://example.org/ns/tt03> <http://example.org/props/title> "The_Lord_of_the_Rings:_The_Return_of_the_King" .
+<http://example.org/ns/tt03> <http://example.org/props/actor> <http://example.org/ns/Sean_Astin> .
+<http://example.org/ns/tt02> <http://example.org/props/director> <http://example.org/ns/Joss_Whedon> .
+<http://example.org/ns/tt02> <http://example.org/props/actor> <http://example.org/ns/Robert_Downey_Jr.> .
+
