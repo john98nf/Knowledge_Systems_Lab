@@ -95,140 +95,83 @@
   <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
 </owl:DatatypeProperty>
 
-<owl:Class rdf:about="http://example.org/ns/Drama">
-  <rdf:type rdf:resource="http://example.org/ns/Genre"/>
-  <rdf:type rdf:resource="http://example.org/ns/Movie"/>
+<owl:Class rdf:about="http://example.org/ns/ActionMovie">
   <rdfs:subClassOf rdf:resource="http://example.org/ns/Movie"/>
-  <rdfs:subClassOf rdf:resource="http://example.org/ns/Genre"/>
 </owl:Class>
 
-<owl:Class rdf:about="http://example.org/ns/Adventure">
-  <rdf:type rdf:resource="http://example.org/ns/Genre"/>
-  <rdf:type rdf:resource="http://example.org/ns/Movie"/>
+<owl:Class rdf:about="http://example.org/ns/AdventureMovie">
   <rdfs:subClassOf rdf:resource="http://example.org/ns/Movie"/>
-  <rdfs:subClassOf rdf:resource="http://example.org/ns/Genre"/>
 </owl:Class>
 
-<owl:Class rdf:about="http://example.org/ns/Crime">
-  <rdf:type rdf:resource="http://example.org/ns/Genre"/>
-  <rdf:type rdf:resource="http://example.org/ns/Movie"/>
+<owl:Class rdf:about="http://example.org/ns/AnimationMovie">
   <rdfs:subClassOf rdf:resource="http://example.org/ns/Movie"/>
-  <rdfs:subClassOf rdf:resource="http://example.org/ns/Genre"/>
 </owl:Class>
 
-<owl:Class rdf:about="http://example.org/ns/Mystery">
-  <rdf:type rdf:resource="http://example.org/ns/Genre"/>
-  <rdf:type rdf:resource="http://example.org/ns/Movie"/>
+<owl:Class rdf:about="http://example.org/ns/BiographyMovie">
   <rdfs:subClassOf rdf:resource="http://example.org/ns/Movie"/>
-  <rdfs:subClassOf rdf:resource="http://example.org/ns/Genre"/>
 </owl:Class>
 
-<owl:Class rdf:about="http://example.org/ns/Action">
-  <rdf:type rdf:resource="http://example.org/ns/Genre"/>
-  <rdf:type rdf:resource="http://example.org/ns/Movie"/>
+<owl:Class rdf:about="http://example.org/ns/ComedyMovie">
   <rdfs:subClassOf rdf:resource="http://example.org/ns/Movie"/>
-  <rdfs:subClassOf rdf:resource="http://example.org/ns/Genre"/>
 </owl:Class>
 
-<owl:Class rdf:about="http://example.org/ns/Comedy">
-  <rdf:type rdf:resource="http://example.org/ns/Genre"/>
-  <rdf:type rdf:resource="http://example.org/ns/Movie"/>
+<owl:Class rdf:about="http://example.org/ns/CrimeMovie">
   <rdfs:subClassOf rdf:resource="http://example.org/ns/Movie"/>
-  <rdfs:subClassOf rdf:resource="http://example.org/ns/Genre"/>
 </owl:Class>
 
-<owl:Class rdf:about="http://example.org/ns/Thriller">
-  <rdf:type rdf:resource="http://example.org/ns/Genre"/>
-  <rdf:type rdf:resource="http://example.org/ns/Movie"/>
+<owl:Class rdf:about="http://example.org/ns/DramaMovie">
   <rdfs:subClassOf rdf:resource="http://example.org/ns/Movie"/>
-  <rdfs:subClassOf rdf:resource="http://example.org/ns/Genre"/>
 </owl:Class>
 
-<owl:Class rdf:about="http://example.org/ns/Animation">
-  <rdf:type rdf:resource="http://example.org/ns/Genre"/>
-  <rdf:type rdf:resource="http://example.org/ns/Movie"/>
+<owl:Class rdf:about="http://example.org/ns/FamilyMovie">
   <rdfs:subClassOf rdf:resource="http://example.org/ns/Movie"/>
-  <rdfs:subClassOf rdf:resource="http://example.org/ns/Genre"/>
 </owl:Class>
 
-<owl:Class rdf:about="http://example.org/ns/Romance">
-  <rdf:type rdf:resource="http://example.org/ns/Genre"/>
-  <rdf:type rdf:resource="http://example.org/ns/Movie"/>
+<owl:Class rdf:about="http://example.org/ns/FantasyMovie">
   <rdfs:subClassOf rdf:resource="http://example.org/ns/Movie"/>
-  <rdfs:subClassOf rdf:resource="http://example.org/ns/Genre"/>
 </owl:Class>
 
-<owl:Class rdf:about="http://example.org/ns/Biography">
-  <rdf:type rdf:resource="http://example.org/ns/Genre"/>
-  <rdf:type rdf:resource="http://example.org/ns/Movie"/>
+<owl:Class rdf:about="http://example.org/ns/HistoryMovie">
   <rdfs:subClassOf rdf:resource="http://example.org/ns/Movie"/>
-  <rdfs:subClassOf rdf:resource="http://example.org/ns/Genre"/>
 </owl:Class>
 
-<owl:Class rdf:about="http://example.org/ns/Fantasy">
-  <rdf:type rdf:resource="http://example.org/ns/Genre"/>
-  <rdf:type rdf:resource="http://example.org/ns/Movie"/>
+<owl:Class rdf:about="http://example.org/ns/HorrorMovie">
   <rdfs:subClassOf rdf:resource="http://example.org/ns/Movie"/>
-  <rdfs:subClassOf rdf:resource="http://example.org/ns/Genre"/>
 </owl:Class>
 
-<owl:Class rdf:about="http://example.org/ns/History">
-  <rdf:type rdf:resource="http://example.org/ns/Genre"/>
-  <rdf:type rdf:resource="http://example.org/ns/Movie"/>
+<owl:Class rdf:about="http://example.org/ns/MusicMovie">
   <rdfs:subClassOf rdf:resource="http://example.org/ns/Movie"/>
-  <rdfs:subClassOf rdf:resource="http://example.org/ns/Genre"/>
 </owl:Class>
 
-<owl:Class rdf:about="http://example.org/ns/Musical">
-  <rdf:type rdf:resource="http://example.org/ns/Genre"/>
-  <rdf:type rdf:resource="http://example.org/ns/Movie"/>
+<owl:Class rdf:about="http://example.org/ns/MusicalMovie">
   <rdfs:subClassOf rdf:resource="http://example.org/ns/Movie"/>
-  <rdfs:subClassOf rdf:resource="http://example.org/ns/Genre"/>
 </owl:Class>
 
-<owl:Class rdf:about="http://example.org/ns/Sport">
-  <rdf:type rdf:resource="http://example.org/ns/Genre"/>
-  <rdf:type rdf:resource="http://example.org/ns/Movie"/>
+<owl:Class rdf:about="http://example.org/ns/MysteryMovie">
   <rdfs:subClassOf rdf:resource="http://example.org/ns/Movie"/>
-  <rdfs:subClassOf rdf:resource="http://example.org/ns/Genre"/>
 </owl:Class>
 
-<owl:Class rdf:about="http://example.org/ns/War">
-  <rdf:type rdf:resource="http://example.org/ns/Genre"/>
-  <rdf:type rdf:resource="http://example.org/ns/Movie"/>
+<owl:Class rdf:about="http://example.org/ns/RomanceMovie">
   <rdfs:subClassOf rdf:resource="http://example.org/ns/Movie"/>
-  <rdfs:subClassOf rdf:resource="http://example.org/ns/Genre"/>
 </owl:Class>
 
-<owl:Class rdf:about="http://example.org/ns/Horror">
-  <rdf:type rdf:resource="http://example.org/ns/Genre"/>
-  <rdf:type rdf:resource="http://example.org/ns/Movie"/>
+<owl:Class rdf:about="http://example.org/ns/SciFiMovie">
   <rdfs:subClassOf rdf:resource="http://example.org/ns/Movie"/>
-  <rdfs:subClassOf rdf:resource="http://example.org/ns/Genre"/>
 </owl:Class>
 
-<owl:Class rdf:about="http://example.org/ns/Family">
-  <rdf:type rdf:resource="http://example.org/ns/Genre"/>
-  <rdf:type rdf:resource="http://example.org/ns/Movie"/>
+<owl:Class rdf:about="http://example.org/ns/SportMovie">
   <rdfs:subClassOf rdf:resource="http://example.org/ns/Movie"/>
-  <rdfs:subClassOf rdf:resource="http://example.org/ns/Genre"/>
 </owl:Class>
 
-<owl:Class rdf:about="http://example.org/ns/Western">
-  <rdf:type rdf:resource="http://example.org/ns/Genre"/>
-  <rdf:type rdf:resource="http://example.org/ns/Movie"/>
+<owl:Class rdf:about="http://example.org/ns/ThrillerMovie">
   <rdfs:subClassOf rdf:resource="http://example.org/ns/Movie"/>
-  <rdfs:subClassOf rdf:resource="http://example.org/ns/Genre"/>
 </owl:Class>
 
-<owl:Class rdf:about="http://example.org/ns/Music">
-  <rdf:type rdf:resource="http://example.org/ns/Genre"/>
-  <rdf:type rdf:resource="http://example.org/ns/Movie"/>
+<owl:Class rdf:about="http://example.org/ns/WarMovie">
   <rdfs:subClassOf rdf:resource="http://example.org/ns/Movie"/>
-  <rdfs:subClassOf rdf:resource="http://example.org/ns/Genre"/>
 </owl:Class>
 
-<owl:Class rdf:about="http://example.org/ns/SciFi">
+<owl:Class rdf:about="http://example.org/ns/WesternMovie">
   <rdfs:subClassOf rdf:resource="http://example.org/ns/Movie"/>
 </owl:Class>
 
@@ -1078,6 +1021,8 @@
   <prop:hasMetascore rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">94</prop:hasMetascore>
 </ns:Movie>
 
+<ns:Genre rdf:about="http://example.org/ns/Drama"/>
+
 <ns:Movie rdf:about="http://example.org/ns/tt0221027">
   <prop:hasActor rdf:resource="http://example.org/ns/Pen\u00E9lope_Cruz"/>
   <prop:hasActor rdf:resource="http://example.org/ns/Ray_Liotta"/>
@@ -1283,6 +1228,8 @@
   <prop:hasMetascore rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">84</prop:hasMetascore>
 </ns:Movie>
 
+<ns:Genre rdf:about="http://example.org/ns/Adventure"/>
+
 <ns:Movie rdf:about="http://example.org/ns/tt0406816">
   <prop:hasActor rdf:resource="http://example.org/ns/Alex_Daniels"/>
   <prop:hasActor rdf:resource="http://example.org/ns/Daniel_J._Molthen"/>
@@ -1355,9 +1302,9 @@
   <prop:releasedInYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1978</prop:releasedInYear>
 </ns:Movie>
 
-<ns:Director rdf:about="http://example.org/ns/Fred_Schepisi">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Fred_Schepisi">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Movie rdf:about="http://example.org/ns/tt0119396">
   <prop:hasActor rdf:resource="http://example.org/ns/LisaGay_Hamilton"/>
@@ -3046,6 +2993,8 @@
   <prop:hasMetascore rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">27</prop:hasMetascore>
 </ns:Movie>
 
+<ns:Genre rdf:about="http://example.org/ns/Crime"/>
+
 <ns:Movie rdf:about="http://example.org/ns/tt1935179">
   <prop:hasActor rdf:resource="http://example.org/ns/Joe_Don_Baker"/>
   <prop:hasActor rdf:resource="http://example.org/ns/Michael_Shannon"/>
@@ -3407,6 +3356,8 @@
   <prop:hasTitle>End_of_the_World</prop:hasTitle>
   <prop:releasedInYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1977</prop:releasedInYear>
 </ns:Movie>
+
+<ns:Genre rdf:about="http://example.org/ns/Mystery"/>
 
 <ns:Actor rdf:about="http://example.org/ns/Sharlit_Deyzac"/>
 
@@ -4067,9 +4018,9 @@
   <prop:hasMetascore rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">52</prop:hasMetascore>
 </ns:Movie>
 
-<ns:Director rdf:about="http://example.org/ns/Zack_Snyder">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Zack_Snyder">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Movie rdf:about="http://example.org/ns/tt0113448">
   <prop:hasActor rdf:resource="http://example.org/ns/Tracy_Thorne"/>
@@ -4480,6 +4431,8 @@
   <prop:hasUSAGrossIncome rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">36605602</prop:hasUSAGrossIncome>
   <prop:hasMetascore rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">64</prop:hasMetascore>
 </ns:Movie>
+
+<ns:Genre rdf:about="http://example.org/ns/Action"/>
 
 <ns:Movie rdf:about="http://example.org/ns/tt0405022">
   <prop:hasActor rdf:resource="http://example.org/ns/Marco_Wirges"/>
@@ -4962,6 +4915,8 @@
   <prop:releasedInYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1998</prop:releasedInYear>
   <prop:hasMetascore rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</prop:hasMetascore>
 </ns:Movie>
+
+<ns:Genre rdf:about="http://example.org/ns/Comedy"/>
 
 <ns:Actor rdf:about="http://example.org/ns/Michael_Shannon"/>
 
@@ -6539,9 +6494,9 @@
   <prop:hasMetascore rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49</prop:hasMetascore>
 </ns:Movie>
 
-<ns:Director rdf:about="http://example.org/ns/Ol_Parker">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Ol_Parker">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Actor rdf:about="http://example.org/ns/Beth_Bailey"/>
 
@@ -6654,6 +6609,8 @@
   <prop:hasMetascore rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">65</prop:hasMetascore>
 </ns:Movie>
 
+<ns:Genre rdf:about="http://example.org/ns/Thriller"/>
+
 <ns:Movie rdf:about="http://example.org/ns/tt0034583">
   <prop:hasActor rdf:resource="http://example.org/ns/S.Z._Sakall"/>
   <prop:hasActor rdf:resource="http://example.org/ns/Paul_Henreid"/>
@@ -6764,9 +6721,9 @@
   <prop:hasMetascore rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">56</prop:hasMetascore>
 </ns:Movie>
 
-<ns:Director rdf:about="http://example.org/ns/Charlie_Kaufman">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Charlie_Kaufman">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Actor rdf:about="http://example.org/ns/Ione_Skye"/>
 
@@ -7681,8 +7638,8 @@
 </ns:Movie>
 
 <ns:Actor rdf:about="http://example.org/ns/Sylvester_Stallone">
-  <rdf:type rdf:resource="http://example.org/ns/Director"/>
   <rdf:type rdf:resource="http://example.org/ns/Writer"/>
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
 </ns:Actor>
 
 <ns:Movie rdf:about="http://example.org/ns/tt1331307">
@@ -8593,6 +8550,8 @@
   <prop:hasMetascore rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">41</prop:hasMetascore>
 </ns:Movie>
 
+<ns:Genre rdf:about="http://example.org/ns/Animation"/>
+
 <ns:Movie rdf:about="http://example.org/ns/tt1190072">
   <prop:hasActor rdf:resource="http://example.org/ns/Mansour_Dowlatmand"/>
   <prop:hasActor rdf:resource="http://example.org/ns/Abbas_Hassanzadeh"/>
@@ -8710,9 +8669,9 @@
   <prop:hasMetascore rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">62</prop:hasMetascore>
 </ns:Movie>
 
-<ns:Director rdf:about="http://example.org/ns/Jonathan_Mostow">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Jonathan_Mostow">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Movie rdf:about="http://example.org/ns/tt0260494">
   <prop:hasActor rdf:resource="http://example.org/ns/Vijay_Arora"/>
@@ -9470,8 +9429,8 @@
 </ns:Movie>
 
 <ns:Actor rdf:about="http://example.org/ns/Bruce_Campbell">
-  <rdf:type rdf:resource="http://example.org/ns/Director"/>
   <rdf:type rdf:resource="http://example.org/ns/Writer"/>
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
 </ns:Actor>
 
 <ns:Actor rdf:about="http://example.org/ns/Brian_Salzberg"/>
@@ -9750,9 +9709,9 @@
   <prop:hasMetascore rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">76</prop:hasMetascore>
 </ns:Movie>
 
-<ns:Director rdf:about="http://example.org/ns/Bill_Condon">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Bill_Condon">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Actor rdf:about="http://example.org/ns/Giancarlo_Ganziano"/>
 
@@ -9935,6 +9894,8 @@
   <prop:hasUSAGrossIncome rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9015303</prop:hasUSAGrossIncome>
   <prop:hasMetascore rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">66</prop:hasMetascore>
 </ns:Movie>
+
+<ns:Genre rdf:about="http://example.org/ns/Romance"/>
 
 <ns:Movie rdf:about="http://example.org/ns/tt0032261">
   <prop:hasActor rdf:resource="http://example.org/ns/Arthur_Hohl"/>
@@ -10787,9 +10748,9 @@
   <prop:hasUSAGrossIncome rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5710</prop:hasUSAGrossIncome>
 </ns:Movie>
 
-<ns:Director rdf:about="http://example.org/ns/Thomas_Jahn">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Thomas_Jahn">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Movie rdf:about="http://example.org/ns/tt0329767">
   <prop:hasActor rdf:resource="http://example.org/ns/Mhairi_Morrison"/>
@@ -11263,9 +11224,9 @@
 
 <ns:Actor rdf:about="http://example.org/ns/Gene_Raymond"/>
 
-<ns:Director rdf:about="http://example.org/ns/Anthony_DiBlasi">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Anthony_DiBlasi">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Actor rdf:about="http://example.org/ns/Bobby_Harwell"/>
 
@@ -11969,6 +11930,8 @@
   <prop:releasedInYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2012</prop:releasedInYear>
 </ns:Movie>
 
+<ns:Genre rdf:about="http://example.org/ns/Biography"/>
+
 <ns:Actor rdf:about="http://example.org/ns/Tommy_Hollis"/>
 
 <ns:Actor rdf:about="http://example.org/ns/Jonathan_Pryce"/>
@@ -12376,9 +12339,9 @@
 
 <ns:Actor rdf:about="http://example.org/ns/Lucinda_Jenney"/>
 
-<ns:Director rdf:about="http://example.org/ns/Roger_Avary">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Roger_Avary">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Movie rdf:about="http://example.org/ns/tt0398563">
   <prop:hasActor rdf:resource="http://example.org/ns/Kate_Higgins"/>
@@ -12608,9 +12571,9 @@
   <prop:releasedInYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1954</prop:releasedInYear>
 </ns:Movie>
 
-<ns:Director rdf:about="http://example.org/ns/Leos_Carax">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Leos_Carax">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Movie rdf:about="http://example.org/ns/tt0120907">
   <prop:hasActor rdf:resource="http://example.org/ns/Oscar_Hsu"/>
@@ -14252,9 +14215,9 @@
 
 <ns:Actor rdf:about="http://example.org/ns/Gigi_Darlene"/>
 
-<ns:Director rdf:about="http://example.org/ns/Henry_Bean">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Henry_Bean">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Actor rdf:about="http://example.org/ns/Humberto_Busto"/>
 
@@ -14593,17 +14556,19 @@
 
 <ns:Actor rdf:about="http://example.org/ns/Carlo_Duse"/>
 
-<ns:Director rdf:about="http://example.org/ns/Fenton_Bailey">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Fenton_Bailey">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Actor rdf:about="http://example.org/ns/Raoul_Bhaneja"/>
 
-<ns:Director rdf:about="http://example.org/ns/John_Boskovich">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/John_Boskovich">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Actor rdf:about="http://example.org/ns/Antony_Sher"/>
+
+<ns:Genre rdf:about="http://example.org/ns/Fantasy"/>
 
 <ns:Movie rdf:about="http://example.org/ns/tt0100507">
   <prop:hasActor rdf:resource="http://example.org/ns/Michael_Anthony_Williams"/>
@@ -14762,9 +14727,9 @@
 
 <ns:Actor rdf:about="http://example.org/ns/Robin_Tunney"/>
 
-<ns:Director rdf:about="http://example.org/ns/Richard_LaGravenese">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Richard_LaGravenese">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Movie rdf:about="http://example.org/ns/tt0159603">
   <prop:hasActor rdf:resource="http://example.org/ns/Esm\u00E9e_de_la_Bretoni\u00E8re"/>
@@ -15387,9 +15352,9 @@
   <prop:releasedInYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2008</prop:releasedInYear>
 </ns:Movie>
 
-<ns:Director rdf:about="http://example.org/ns/Mysskin">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Mysskin">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Movie rdf:about="http://example.org/ns/tt0021884">
   <prop:hasActor rdf:resource="http://example.org/ns/Frederick_Kerr"/>
@@ -15631,17 +15596,17 @@
 
 <ns:Actor rdf:about="http://example.org/ns/Beth_Grant"/>
 
-<ns:Director rdf:about="http://example.org/ns/Reha_Erdem">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Reha_Erdem">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Actor rdf:about="http://example.org/ns/Khan_Bonfils"/>
 
 <ns:Actor rdf:about="http://example.org/ns/Brea_Frazier"/>
 
-<ns:Director rdf:about="http://example.org/ns/Wes_Craven">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Wes_Craven">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Movie rdf:about="http://example.org/ns/tt0417148">
   <prop:hasActor rdf:resource="http://example.org/ns/Gerard_Plunkett"/>
@@ -15715,6 +15680,8 @@
 </ns:Movie>
 
 <ns:Actor rdf:about="http://example.org/ns/Robert_Carlyle"/>
+
+<ns:Genre rdf:about="http://example.org/ns/History"/>
 
 <ns:Movie rdf:about="http://example.org/ns/tt0405159">
   <prop:hasActor rdf:resource="http://example.org/ns/Joe_D'Angerio"/>
@@ -15957,9 +15924,9 @@
 
 <ns:Actor rdf:about="http://example.org/ns/Eugene_Osment"/>
 
-<ns:Director rdf:about="http://example.org/ns/Francesco_Rosi">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Francesco_Rosi">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Movie rdf:about="http://example.org/ns/tt0263101">
   <prop:hasActor rdf:resource="http://example.org/ns/Premsinee_Ratanasopha"/>
@@ -15986,9 +15953,9 @@
   <prop:hasMetascore rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">45</prop:hasMetascore>
 </ns:Movie>
 
-<ns:Director rdf:about="http://example.org/ns/Danny_Pang">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Danny_Pang">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Movie rdf:about="http://example.org/ns/tt0305556">
   <prop:hasActor rdf:resource="http://example.org/ns/Beth_Grant"/>
@@ -16023,6 +15990,8 @@
 </ns:Movie>
 
 <ns:Director rdf:about="http://example.org/ns/Robert_Edward_Stevenson"/>
+
+<ns:Genre rdf:about="http://example.org/ns/Musical"/>
 
 <ns:Movie rdf:about="http://example.org/ns/tt0055796">
   <prop:hasActor rdf:resource="http://example.org/ns/Paul_Rogers"/>
@@ -16238,11 +16207,13 @@
 
 <ns:Writer rdf:about="http://example.org/ns/Charles_Brackett"/>
 
-<ns:Director rdf:about="http://example.org/ns/Nathan_Scoggins">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Nathan_Scoggins">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Actor rdf:about="http://example.org/ns/Zakira_Holland"/>
+
+<ns:Genre rdf:about="http://example.org/ns/Sport"/>
 
 <ns:Actor rdf:about="http://example.org/ns/Kelly_Hunter"/>
 
@@ -16626,9 +16597,9 @@
 
 <ns:Actor rdf:about="http://example.org/ns/Lois_Saunders"/>
 
-<ns:Director rdf:about="http://example.org/ns/Lana_Wachowski">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Lana_Wachowski">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Actor rdf:about="http://example.org/ns/Matthew_McConaughey"/>
 
@@ -16684,9 +16655,9 @@
 
 <ns:Actor rdf:about="http://example.org/ns/Maggie_Butterfield"/>
 
-<ns:Director rdf:about="http://example.org/ns/Len_Wiseman">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Len_Wiseman">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Actor rdf:about="http://example.org/ns/Andrey_Sergeev"/>
 
@@ -16698,9 +16669,9 @@
 
 <ns:Language rdf:about="http://example.org/ns/Korean"/>
 
-<ns:Director rdf:about="http://example.org/ns/Gilles_Marchand">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Gilles_Marchand">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Actor rdf:about="http://example.org/ns/James_Gandia"/>
 
@@ -16898,8 +16869,8 @@
 <ns:Actor rdf:about="http://example.org/ns/Felicity_Huffman"/>
 
 <ns:Actor rdf:about="http://example.org/ns/Carlo_Verdone">
-  <rdf:type rdf:resource="http://example.org/ns/Director"/>
   <rdf:type rdf:resource="http://example.org/ns/Writer"/>
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
 </ns:Actor>
 
 <ns:Actor rdf:about="http://example.org/ns/June_Jago"/>
@@ -17156,9 +17127,9 @@
 
 <ns:Actor rdf:about="http://example.org/ns/David_Yip"/>
 
-<ns:Director rdf:about="http://example.org/ns/Richard_Kelly">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Richard_Kelly">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Actor rdf:about="http://example.org/ns/Adolph_Caesar"/>
 
@@ -17206,9 +17177,9 @@
 
 <ns:Actor rdf:about="http://example.org/ns/Yolanda_Vazquez"/>
 
-<ns:Director rdf:about="http://example.org/ns/Yimou_Zhang">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Yimou_Zhang">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Actor rdf:about="http://example.org/ns/Lee_Oakes"/>
 
@@ -17420,9 +17391,9 @@
 
 <ns:Actor rdf:about="http://example.org/ns/Kenny_Baker"/>
 
-<ns:Director rdf:about="http://example.org/ns/Fatih_Akin">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Fatih_Akin">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Actor rdf:about="http://example.org/ns/Uwe_Ochsenknecht"/>
 
@@ -17820,15 +17791,15 @@
 <ns:Actor rdf:about="http://example.org/ns/Leonardo_Cimino"/>
 
 <ns:Actor rdf:about="http://example.org/ns/Bonnie_Hunt">
-  <rdf:type rdf:resource="http://example.org/ns/Director"/>
   <rdf:type rdf:resource="http://example.org/ns/Writer"/>
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
 </ns:Actor>
 
 <ns:Actor rdf:about="http://example.org/ns/Jeremy_Irons"/>
 
-<ns:Director rdf:about="http://example.org/ns/Chris_Columbus">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Chris_Columbus">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Movie rdf:about="http://example.org/ns/tt0058329">
   <prop:hasActor rdf:resource="http://example.org/ns/Louise_Latham"/>
@@ -18000,9 +17971,9 @@
   <prop:hasUSAGrossIncome rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15379253</prop:hasUSAGrossIncome>
 </ns:Movie>
 
-<ns:Director rdf:about="http://example.org/ns/Kimberly_Peirce">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Kimberly_Peirce">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Movie rdf:about="http://example.org/ns/tt0298130">
   <prop:hasActor rdf:resource="http://example.org/ns/Sasha_Barrese"/>
@@ -18326,9 +18297,9 @@
 
 <ns:Actor rdf:about="http://example.org/ns/Richard_Libertini"/>
 
-<ns:Director rdf:about="http://example.org/ns/Mark_Neveldine">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Mark_Neveldine">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Actor rdf:about="http://example.org/ns/Jeffrey_DeMunn"/>
 
@@ -18643,9 +18614,9 @@
 
 <ns:Actor rdf:about="http://example.org/ns/Judy_Young"/>
 
-<ns:Director rdf:about="http://example.org/ns/Patrik-Ian_Polk">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Patrik-Ian_Polk">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Actor rdf:about="http://example.org/ns/Peter_Paul_Muller"/>
 
@@ -18756,9 +18727,9 @@
   <prop:releasedInYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2006</prop:releasedInYear>
 </ns:Movie>
 
-<ns:Director rdf:about="http://example.org/ns/Martin_Gypkens">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Martin_Gypkens">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Actor rdf:about="http://example.org/ns/Nicholas_Reinke"/>
 
@@ -18874,9 +18845,9 @@
 
 <ns:Actor rdf:about="http://example.org/ns/Sean_Wolf_Hill"/>
 
-<ns:Director rdf:about="http://example.org/ns/Patty_Jenkins">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Patty_Jenkins">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Actor rdf:about="http://example.org/ns/Hugh_Dancy"/>
 
@@ -18894,15 +18865,17 @@
 
 <ns:Actor rdf:about="http://example.org/ns/Joel_Grey"/>
 
+<ns:Genre rdf:about="http://example.org/ns/War"/>
+
 <ns:Actor rdf:about="http://example.org/ns/Moritz_Bleibtreu"/>
 
 <ns:Writer rdf:about="http://example.org/ns/Tsutomu_Takahashi"/>
 
 <ns:Actor rdf:about="http://example.org/ns/Jack_Nicholson"/>
 
-<ns:Director rdf:about="http://example.org/ns/Lodge_Kerrigan">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Lodge_Kerrigan">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Writer rdf:about="http://example.org/ns/J.K._Ahuja"/>
 
@@ -18910,9 +18883,9 @@
 
 <ns:Actor rdf:about="http://example.org/ns/Cole_Hauser"/>
 
-<ns:Director rdf:about="http://example.org/ns/Larry_Clark">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Larry_Clark">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Actor rdf:about="http://example.org/ns/Shelly_Ingram"/>
 
@@ -19048,9 +19021,9 @@
 
 <ns:Actor rdf:about="http://example.org/ns/Sam_Lee"/>
 
-<ns:Director rdf:about="http://example.org/ns/Alison_Murray">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Alison_Murray">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Actor rdf:about="http://example.org/ns/Efren_Ramirez"/>
 
@@ -19199,9 +19172,9 @@
   <prop:hasMetascore rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">45</prop:hasMetascore>
 </ns:Movie>
 
-<ns:Director rdf:about="http://example.org/ns/Barry_Levinson">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Barry_Levinson">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Writer rdf:about="http://example.org/ns/Cornell_Woolrich"/>
 
@@ -19608,9 +19581,9 @@
 
 <ns:Actor rdf:about="http://example.org/ns/Benicio_Del_Toro"/>
 
-<ns:Director rdf:about="http://example.org/ns/George_Lucas">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/George_Lucas">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Movie rdf:about="http://example.org/ns/tt1576459">
   <prop:hasActor rdf:resource="http://example.org/ns/Rendy_Ahmad"/>
@@ -19780,9 +19753,9 @@
   <prop:releasedInYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1986</prop:releasedInYear>
 </ns:Movie>
 
-<ns:Director rdf:about="http://example.org/ns/Richard_W._Haines">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Richard_W._Haines">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Movie rdf:about="http://example.org/ns/tt1579235">
   <prop:hasActor rdf:resource="http://example.org/ns/Lee_Thompson"/>
@@ -19815,9 +19788,9 @@
   <prop:releasedInYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2011</prop:releasedInYear>
 </ns:Movie>
 
-<ns:Director rdf:about="http://example.org/ns/Keith_Wright">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Keith_Wright">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Actor rdf:about="http://example.org/ns/Michael_Jahnke"/>
 
@@ -19843,9 +19816,9 @@
 
 <ns:Actor rdf:about="http://example.org/ns/Katharine_Isabelle"/>
 
-<ns:Director rdf:about="http://example.org/ns/Samuel_Fuller">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Samuel_Fuller">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Actor rdf:about="http://example.org/ns/Andrew_Tiernan"/>
 
@@ -19855,9 +19828,9 @@
 
 <ns:Actor rdf:about="http://example.org/ns/Scott_Wickware"/>
 
-<ns:Director rdf:about="http://example.org/ns/Susanne_Bier">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Susanne_Bier">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Actor rdf:about="http://example.org/ns/Richard_Crenna"/>
 
@@ -19925,9 +19898,9 @@
 
 <ns:Actor rdf:about="http://example.org/ns/Patrick_Bauchau"/>
 
-<ns:Director rdf:about="http://example.org/ns/Jean-Pierre_Jeunet">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Jean-Pierre_Jeunet">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Actor rdf:about="http://example.org/ns/Lesley_Dunlop"/>
 
@@ -19982,6 +19955,8 @@
 <ns:Actor rdf:about="http://example.org/ns/Toby_Jones"/>
 
 <ns:Language rdf:about="http://example.org/ns/Cantonese"/>
+
+<ns:Genre rdf:about="http://example.org/ns/Horror"/>
 
 <ns:Actor rdf:about="http://example.org/ns/Moses_LaMarr"/>
 
@@ -20156,8 +20131,8 @@
 <ns:Actor rdf:about="http://example.org/ns/Scott_MacDonald"/>
 
 <ns:Actor rdf:about="http://example.org/ns/Helge_Schneider">
-  <rdf:type rdf:resource="http://example.org/ns/Director"/>
   <rdf:type rdf:resource="http://example.org/ns/Writer"/>
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
 </ns:Actor>
 
 <ns:Writer rdf:about="http://example.org/ns/Lowell_Cunningham"/>
@@ -20231,8 +20206,8 @@
 <ns:Actor rdf:about="http://example.org/ns/Sam_Shepard"/>
 
 <ns:Actor rdf:about="http://example.org/ns/Mike_Binder">
-  <rdf:type rdf:resource="http://example.org/ns/Director"/>
   <rdf:type rdf:resource="http://example.org/ns/Writer"/>
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
 </ns:Actor>
 
 <ns:Actor rdf:about="http://example.org/ns/O'Neal_Compton"/>
@@ -20283,17 +20258,17 @@
 </ns:Movie>
 
 <ns:Actor rdf:about="http://example.org/ns/Tom_McCarthy">
-  <rdf:type rdf:resource="http://example.org/ns/Director"/>
   <rdf:type rdf:resource="http://example.org/ns/Writer"/>
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
 </ns:Actor>
 
 <ns:Actor rdf:about="http://example.org/ns/Heather_M._Bomba"/>
 
 <ns:Actor rdf:about="http://example.org/ns/Catalina_Sandino_Moreno"/>
 
-<ns:Director rdf:about="http://example.org/ns/Brian_Taylor">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Brian_Taylor">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Actor rdf:about="http://example.org/ns/Eino_Kuusela"/>
 
@@ -20305,15 +20280,15 @@
 
 <ns:Actor rdf:about="http://example.org/ns/Akihiro_Nishida"/>
 
-<ns:Director rdf:about="http://example.org/ns/Uwe_Boll">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Uwe_Boll">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Actor rdf:about="http://example.org/ns/Mikael_Todde"/>
 
-<ns:Director rdf:about="http://example.org/ns/Maurice_Pialat">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Maurice_Pialat">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Actor rdf:about="http://example.org/ns/Harris_Gordon"/>
 
@@ -20386,9 +20361,9 @@
 
 <ns:Actor rdf:about="http://example.org/ns/Susan_Sarandon"/>
 
-<ns:Director rdf:about="http://example.org/ns/Tim_Sullivan">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Tim_Sullivan">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Actor rdf:about="http://example.org/ns/Gary_Kohn"/>
 
@@ -20515,9 +20490,9 @@
 
 <ns:Writer rdf:about="http://example.org/ns/Robert_Mark_Kamen"/>
 
-<ns:Director rdf:about="http://example.org/ns/Sanjay_Leela_Bhansali">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Sanjay_Leela_Bhansali">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Actor rdf:about="http://example.org/ns/Deepti_Naval"/>
 
@@ -20539,6 +20514,8 @@
 
 <ns:Actor rdf:about="http://example.org/ns/Michael_Jace"/>
 
+<ns:Genre rdf:about="http://example.org/ns/Family"/>
+
 <ns:Actor rdf:about="http://example.org/ns/Carlo_Croccolo"/>
 
 <ns:Actor rdf:about="http://example.org/ns/Tilda_Swinton"/>
@@ -20555,9 +20532,9 @@
 
 <ns:Actor rdf:about="http://example.org/ns/Sharon_Baird"/>
 
-<ns:Director rdf:about="http://example.org/ns/Michelangelo_Antonioni">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Michelangelo_Antonioni">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Actor rdf:about="http://example.org/ns/Julia_Nickson"/>
 
@@ -20579,9 +20556,9 @@
 
 <ns:Actor rdf:about="http://example.org/ns/Ed_Hood"/>
 
-<ns:Director rdf:about="http://example.org/ns/Caroline_Link">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Caroline_Link">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Company rdf:about="http://example.org/ns/FilmFour"/>
 
@@ -20635,9 +20612,9 @@
 
 <ns:Actor rdf:about="http://example.org/ns/Megan_Owen"/>
 
-<ns:Director rdf:about="http://example.org/ns/David_Cronenberg">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/David_Cronenberg">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Language rdf:about="http://example.org/ns/Albanian"/>
 
@@ -20647,9 +20624,9 @@
 
 <ns:Actor rdf:about="http://example.org/ns/Genevieve_Zweig"/>
 
-<ns:Director rdf:about="http://example.org/ns/Kieran_Mulroney">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Kieran_Mulroney">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Actor rdf:about="http://example.org/ns/Frank_Collison"/>
 
@@ -20681,9 +20658,9 @@
 
 <ns:Actor rdf:about="http://example.org/ns/Qi_Shu"/>
 
-<ns:Director rdf:about="http://example.org/ns/Michael_Haneke">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Michael_Haneke">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Actor rdf:about="http://example.org/ns/Donald_Crisp">
   <rdf:type rdf:resource="http://example.org/ns/Director"/>
@@ -20703,9 +20680,9 @@
 
 <ns:Actor rdf:about="http://example.org/ns/Masahiro_Toda"/>
 
-<ns:Director rdf:about="http://example.org/ns/Christopher_Nolan">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Christopher_Nolan">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Actor rdf:about="http://example.org/ns/Kathryn_Pogson"/>
 
@@ -20760,9 +20737,9 @@
 
 <ns:Actor rdf:about="http://example.org/ns/Shelley_Winters"/>
 
-<ns:Director rdf:about="http://example.org/ns/Michele_Mulroney">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Michele_Mulroney">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Writer rdf:about="http://example.org/ns/Michael_Cunningham"/>
 
@@ -20771,8 +20748,8 @@
 <ns:Actor rdf:about="http://example.org/ns/Rose_Byrne"/>
 
 <ns:Actor rdf:about="http://example.org/ns/Dolph_Lundgren">
-  <rdf:type rdf:resource="http://example.org/ns/Director"/>
   <rdf:type rdf:resource="http://example.org/ns/Writer"/>
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
 </ns:Actor>
 
 <ns:Language rdf:about="http://example.org/ns/Chinese"/>
@@ -20880,9 +20857,9 @@
 
 <ns:Actor rdf:about="http://example.org/ns/Eddie_Kaye_Thomas"/>
 
-<ns:Director rdf:about="http://example.org/ns/Lars_von_Trier">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Lars_von_Trier">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Actor rdf:about="http://example.org/ns/Jerry_Adler"/>
 
@@ -21009,9 +20986,9 @@
 
 <ns:Actor rdf:about="http://example.org/ns/Jocelyn_Quivrin"/>
 
-<ns:Director rdf:about="http://example.org/ns/Guillermo_del_Toro">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Guillermo_del_Toro">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Actor rdf:about="http://example.org/ns/Robert_Mitchum"/>
 
@@ -21086,9 +21063,9 @@
 
 <ns:Writer rdf:about="http://example.org/ns/David_Pasquesi"/>
 
-<ns:Director rdf:about="http://example.org/ns/George_Gallo">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/George_Gallo">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Actor rdf:about="http://example.org/ns/Paul_Shenar"/>
 
@@ -21126,9 +21103,9 @@
 
 <ns:Actor rdf:about="http://example.org/ns/John_Welsh"/>
 
-<ns:Director rdf:about="http://example.org/ns/Jean_van_de_Velde">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Jean_van_de_Velde">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Actor rdf:about="http://example.org/ns/Christian_Bale"/>
 
@@ -21186,9 +21163,9 @@
 
 <ns:Actor rdf:about="http://example.org/ns/Javed_Khan"/>
 
-<ns:Director rdf:about="http://example.org/ns/Andrew_Van_Slee">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Andrew_Van_Slee">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Actor rdf:about="http://example.org/ns/Sam_Harris"/>
 
@@ -21263,9 +21240,9 @@
 
 <ns:Writer rdf:about="http://example.org/ns/Tom_Leopold"/>
 
-<ns:Director rdf:about="http://example.org/ns/David_Oliver_Pfeil">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/David_Oliver_Pfeil">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Writer rdf:about="http://example.org/ns/Robert_Buckner"/>
 
@@ -21386,8 +21363,8 @@
 <ns:Actor rdf:about="http://example.org/ns/Christopher_John_Fields"/>
 
 <ns:Actor rdf:about="http://example.org/ns/Kevin_Smith">
-  <rdf:type rdf:resource="http://example.org/ns/Director"/>
   <rdf:type rdf:resource="http://example.org/ns/Writer"/>
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
 </ns:Actor>
 
 <ns:Actor rdf:about="http://example.org/ns/Bill_Jenkins"/>
@@ -21408,9 +21385,9 @@
 
 <ns:Director rdf:about="http://example.org/ns/Anand_Tucker"/>
 
-<ns:Director rdf:about="http://example.org/ns/Quentin_Tarantino">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Quentin_Tarantino">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Actor rdf:about="http://example.org/ns/Christopher_Walken"/>
 
@@ -21426,9 +21403,9 @@
 
 <ns:Actor rdf:about="http://example.org/ns/Anneke_Kim_Sarnau"/>
 
-<ns:Director rdf:about="http://example.org/ns/Lilly_Wachowski">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Lilly_Wachowski">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Actor rdf:about="http://example.org/ns/Martin_Sheen"/>
 
@@ -21523,9 +21500,9 @@
 
 <ns:Actor rdf:about="http://example.org/ns/Jack_Wild"/>
 
-<ns:Director rdf:about="http://example.org/ns/Kiyoshi_Kurosawa">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Kiyoshi_Kurosawa">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Actor rdf:about="http://example.org/ns/Jayd_Johnson"/>
 
@@ -21579,9 +21556,9 @@
 
 <ns:Actor rdf:about="http://example.org/ns/Julio_Cesar_Cedillo"/>
 
-<ns:Director rdf:about="http://example.org/ns/Duncan_Tucker">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Duncan_Tucker">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Actor rdf:about="http://example.org/ns/Kulbhushan_Kharbanda"/>
 
@@ -21613,9 +21590,9 @@
 
 <ns:Director rdf:about="http://example.org/ns/James_Yukich"/>
 
-<ns:Director rdf:about="http://example.org/ns/Shyam_Ramsay">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Shyam_Ramsay">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Actor rdf:about="http://example.org/ns/Curtiss_Cook"/>
 
@@ -21695,9 +21672,9 @@
 
 <ns:Actor rdf:about="http://example.org/ns/Edward_Woodall"/>
 
-<ns:Director rdf:about="http://example.org/ns/Michael_Patrick_King">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Michael_Patrick_King">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Actor rdf:about="http://example.org/ns/Neha_Bam"/>
 
@@ -21713,9 +21690,9 @@
 
 <ns:Country rdf:about="http://example.org/ns/Czech_Republic"/>
 
-<ns:Director rdf:about="http://example.org/ns/Stanley_Kubrick">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Stanley_Kubrick">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Actor rdf:about="http://example.org/ns/Annabella_Sciorra"/>
 
@@ -21753,9 +21730,9 @@
 
 <ns:Actor rdf:about="http://example.org/ns/Blair_Brown"/>
 
-<ns:Director rdf:about="http://example.org/ns/Steven_Lisberger">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Steven_Lisberger">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Actor rdf:about="http://example.org/ns/Kayvan_Novak"/>
 
@@ -21872,8 +21849,8 @@
 <ns:Actor rdf:about="http://example.org/ns/Amanda_Peet"/>
 
 <ns:Actor rdf:about="http://example.org/ns/Jules_Dassin">
-  <rdf:type rdf:resource="http://example.org/ns/Director"/>
   <rdf:type rdf:resource="http://example.org/ns/Writer"/>
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
 </ns:Actor>
 
 <ns:Actor rdf:about="http://example.org/ns/Joe_Renton"/>
@@ -21927,8 +21904,8 @@
 <ns:Actor rdf:about="http://example.org/ns/Todd_Tesen"/>
 
 <ns:Actor rdf:about="http://example.org/ns/Ben_Affleck">
-  <rdf:type rdf:resource="http://example.org/ns/Director"/>
   <rdf:type rdf:resource="http://example.org/ns/Writer"/>
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
 </ns:Actor>
 
 <ns:Actor rdf:about="http://example.org/ns/Jung-yeop_Seon"/>
@@ -21995,9 +21972,9 @@
 
 <ns:Actor rdf:about="http://example.org/ns/Cipe_Lincovsky"/>
 
-<ns:Director rdf:about="http://example.org/ns/Ingmar_Bergman">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Ingmar_Bergman">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Actor rdf:about="http://example.org/ns/Hanna_Schygulla"/>
 
@@ -22013,9 +21990,9 @@
 
 <ns:Actor rdf:about="http://example.org/ns/Arthur_Lake"/>
 
-<ns:Director rdf:about="http://example.org/ns/Clay_Liford">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Clay_Liford">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Actor rdf:about="http://example.org/ns/Fitz_Houston"/>
 
@@ -22027,9 +22004,9 @@
 
 <ns:Actor rdf:about="http://example.org/ns/Joe_Pantoliano"/>
 
-<ns:Director rdf:about="http://example.org/ns/Allison_Anders">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Allison_Anders">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Actor rdf:about="http://example.org/ns/Julie_Cox"/>
 
@@ -22075,9 +22052,9 @@
 
 <ns:Country rdf:about="http://example.org/ns/Spain"/>
 
-<ns:Director rdf:about="http://example.org/ns/Joseph_P._Mawra">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Joseph_P._Mawra">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Actor rdf:about="http://example.org/ns/Maria_Pastel"/>
 
@@ -22105,9 +22082,9 @@
 
 <ns:Actor rdf:about="http://example.org/ns/Aldo_Parodi"/>
 
-<ns:Director rdf:about="http://example.org/ns/Dana_Adam_Shapiro">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Dana_Adam_Shapiro">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Director rdf:about="http://example.org/ns/William_A._Levey"/>
 
@@ -22121,9 +22098,9 @@
 
 <ns:Actor rdf:about="http://example.org/ns/Israel_Rubinek"/>
 
-<ns:Director rdf:about="http://example.org/ns/Douglas_McGrath">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Douglas_McGrath">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Actor rdf:about="http://example.org/ns/Tom_Hillmann"/>
 
@@ -22215,9 +22192,9 @@
 
 <ns:Actor rdf:about="http://example.org/ns/Takashi_Matsuyama"/>
 
-<ns:Director rdf:about="http://example.org/ns/Randy_Barbato">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Randy_Barbato">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Actor rdf:about="http://example.org/ns/Mei_Tanaka"/>
 
@@ -22227,9 +22204,9 @@
 
 <ns:Actor rdf:about="http://example.org/ns/Miguel_Sandoval"/>
 
-<ns:Director rdf:about="http://example.org/ns/Jim_Jarmusch">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Jim_Jarmusch">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Actor rdf:about="http://example.org/ns/Rama_Vij"/>
 
@@ -22305,6 +22282,8 @@
 
 <ns:Actor rdf:about="http://example.org/ns/Malwina_Depta"/>
 
+<ns:Genre rdf:about="http://example.org/ns/Western"/>
+
 <ns:Actor rdf:about="http://example.org/ns/Adolfo_Assor"/>
 
 <ns:Actor rdf:about="http://example.org/ns/Nick_Chinlund"/>
@@ -22323,9 +22302,9 @@
 
 <ns:Actor rdf:about="http://example.org/ns/Mimi_Rogers"/>
 
-<ns:Director rdf:about="http://example.org/ns/Michael_Cristofer">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Michael_Cristofer">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Actor rdf:about="http://example.org/ns/Walton_Goggins"/>
 
@@ -22483,15 +22462,15 @@
 
 <ns:Actor rdf:about="http://example.org/ns/Ravinder_Happy"/>
 
-<ns:Director rdf:about="http://example.org/ns/Stephen_Gaghan">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Stephen_Gaghan">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Actor rdf:about="http://example.org/ns/David_St._James"/>
 
-<ns:Director rdf:about="http://example.org/ns/Terry_Gilliam">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Terry_Gilliam">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Actor rdf:about="http://example.org/ns/Birthe_Neumann"/>
 
@@ -22503,9 +22482,9 @@
 
 <ns:Actor rdf:about="http://example.org/ns/Korel_Kubilay"/>
 
-<ns:Director rdf:about="http://example.org/ns/Robert_Salis">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Robert_Salis">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Actor rdf:about="http://example.org/ns/Manfredi_Saavedra"/>
 
@@ -22535,9 +22514,9 @@
 
 <ns:Country rdf:about="http://example.org/ns/Switzerland"/>
 
-<ns:Director rdf:about="http://example.org/ns/Wim_Wenders">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Wim_Wenders">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Actor rdf:about="http://example.org/ns/Brad_Leland"/>
 
@@ -22585,9 +22564,9 @@
 
 <ns:Actor rdf:about="http://example.org/ns/Daniel_Roebuck"/>
 
-<ns:Director rdf:about="http://example.org/ns/Olivier_Dahan">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Olivier_Dahan">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Writer rdf:about="http://example.org/ns/Richard_Yates"/>
 
@@ -22599,9 +22578,9 @@
 
 <ns:Actor rdf:about="http://example.org/ns/Denholm_Elliott"/>
 
-<ns:Director rdf:about="http://example.org/ns/Andrew_Niccol">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Andrew_Niccol">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Actor rdf:about="http://example.org/ns/Vanessa_Ferlito"/>
 
@@ -22679,9 +22658,9 @@
 
 <ns:Actor rdf:about="http://example.org/ns/Barry_Pepper"/>
 
-<ns:Director rdf:about="http://example.org/ns/Stephen_Sommers">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Stephen_Sommers">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Actor rdf:about="http://example.org/ns/Jeremy_Piven"/>
 
@@ -22749,9 +22728,9 @@
 
 <ns:Actor rdf:about="http://example.org/ns/Amanda_Plummer"/>
 
-<ns:Director rdf:about="http://example.org/ns/David_Mackenzie">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/David_Mackenzie">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Actor rdf:about="http://example.org/ns/Ivan_G'Vera"/>
 
@@ -22769,9 +22748,9 @@
 
 <ns:Actor rdf:about="http://example.org/ns/Steven_Geray"/>
 
-<ns:Director rdf:about="http://example.org/ns/Samuel_M._Sherman">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Samuel_M._Sherman">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Actor rdf:about="http://example.org/ns/Kelly_Rutherford"/>
 
@@ -22801,9 +22780,9 @@
 
 <ns:Actor rdf:about="http://example.org/ns/Amy_Poehler"/>
 
-<ns:Director rdf:about="http://example.org/ns/Barbara_Albert">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Barbara_Albert">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Actor rdf:about="http://example.org/ns/Rainer_Will"/>
 
@@ -22879,9 +22858,9 @@
 
 <ns:Company rdf:about="http://example.org/ns/EuropaCorp"/>
 
-<ns:Director rdf:about="http://example.org/ns/Tony_Gilroy">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Tony_Gilroy">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Actor rdf:about="http://example.org/ns/Frank_Notaro"/>
 
@@ -22897,9 +22876,9 @@
 
 <ns:Actor rdf:about="http://example.org/ns/Nicholas_Boulton"/>
 
-<ns:Director rdf:about="http://example.org/ns/Sonja_Heiss">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Sonja_Heiss">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Writer rdf:about="http://example.org/ns/William_Makepeace_Thackeray"/>
 
@@ -22909,9 +22888,9 @@
 
 <ns:Actor rdf:about="http://example.org/ns/Elizabeth_Keener"/>
 
-<ns:Director rdf:about="http://example.org/ns/Rainer_Werner_Fassbinder">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Rainer_Werner_Fassbinder">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Company rdf:about="http://example.org/ns/Deutsche_Film-_und_Fernsehakademie_Berlin_(DFFB)"/>
 
@@ -22927,9 +22906,9 @@
 
 <ns:Actor rdf:about="http://example.org/ns/Steve_Lucescu"/>
 
-<ns:Director rdf:about="http://example.org/ns/Mahesh_Manjrekar">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Mahesh_Manjrekar">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Actor rdf:about="http://example.org/ns/Don_S._Davis"/>
 
@@ -23143,9 +23122,9 @@
 
 <ns:Company rdf:about="http://example.org/ns/StudioCanal"/>
 
-<ns:Director rdf:about="http://example.org/ns/Rick_Alverson">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Rick_Alverson">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Actor rdf:about="http://example.org/ns/William_Hootkins"/>
 
@@ -23209,9 +23188,9 @@
 
 <ns:Actor rdf:about="http://example.org/ns/Martin_Landau"/>
 
-<ns:Director rdf:about="http://example.org/ns/Gus_Van_Sant">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Gus_Van_Sant">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Actor rdf:about="http://example.org/ns/Silvia_Colloca"/>
 
@@ -23261,9 +23240,9 @@
 
 <ns:Actor rdf:about="http://example.org/ns/Sami_Loris"/>
 
-<ns:Director rdf:about="http://example.org/ns/Ermek_Tursunov">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Ermek_Tursunov">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Actor rdf:about="http://example.org/ns/Jennifer_Aniston"/>
 
@@ -23369,9 +23348,9 @@
 
 <ns:Actor rdf:about="http://example.org/ns/Austin_Basis"/>
 
-<ns:Director rdf:about="http://example.org/ns/Marc_Caro">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Marc_Caro">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Actor rdf:about="http://example.org/ns/Ewan_Stewart"/>
 
@@ -23379,9 +23358,9 @@
 
 <ns:Actor rdf:about="http://example.org/ns/Tonya_Smith"/>
 
-<ns:Director rdf:about="http://example.org/ns/Adam_Mason">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Adam_Mason">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Actor rdf:about="http://example.org/ns/Emma_Stone"/>
 
@@ -23425,9 +23404,9 @@
 
 <ns:Actor rdf:about="http://example.org/ns/Nick_Carter"/>
 
-<ns:Director rdf:about="http://example.org/ns/Ali_Abbas_Zafar">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Ali_Abbas_Zafar">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Actor rdf:about="http://example.org/ns/Seamus_Reilly"/>
 
@@ -23443,9 +23422,9 @@
 
 <ns:Actor rdf:about="http://example.org/ns/Ah_Wai"/>
 
-<ns:Director rdf:about="http://example.org/ns/Stephen_Shimek">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Stephen_Shimek">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Actor rdf:about="http://example.org/ns/Patrick_Stewart"/>
 
@@ -23471,6 +23450,8 @@
 
 <ns:Actor rdf:about="http://example.org/ns/Karel_Roden"/>
 
+<ns:Genre rdf:about="http://example.org/ns/Music"/>
+
 <ns:Company rdf:about="http://example.org/ns/Greenleaf_Productions"/>
 
 <ns:Actor rdf:about="http://example.org/ns/Ken_Clark"/>
@@ -23487,17 +23468,17 @@
 
 <ns:Actor rdf:about="http://example.org/ns/Nattama_Narkpo"/>
 
-<ns:Director rdf:about="http://example.org/ns/Slava_Tsukerman">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Slava_Tsukerman">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Actor rdf:about="http://example.org/ns/Ariana_Richards"/>
 
 <ns:Company rdf:about="http://example.org/ns/FrissonFilm"/>
 
 <ns:Actor rdf:about="http://example.org/ns/Takeshi_Kitano">
-  <rdf:type rdf:resource="http://example.org/ns/Director"/>
   <rdf:type rdf:resource="http://example.org/ns/Writer"/>
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
 </ns:Actor>
 
 <ns:Actor rdf:about="http://example.org/ns/Kario_Salem"/>
@@ -23566,17 +23547,17 @@
 
 <ns:Actor rdf:about="http://example.org/ns/Brendan_Gleeson"/>
 
-<ns:Director rdf:about="http://example.org/ns/Joseph_McGrath">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Joseph_McGrath">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Actor rdf:about="http://example.org/ns/Olle_Sarri"/>
 
 <ns:Actor rdf:about="http://example.org/ns/Craig_Coyne"/>
 
-<ns:Director rdf:about="http://example.org/ns/Gary_Walkow">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Gary_Walkow">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Actor rdf:about="http://example.org/ns/Rosa_Arift"/>
 
@@ -23648,9 +23629,9 @@
 
 <ns:Actor rdf:about="http://example.org/ns/Jed_Rees"/>
 
-<ns:Director rdf:about="http://example.org/ns/Paul_Thomas_Anderson">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Paul_Thomas_Anderson">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Actor rdf:about="http://example.org/ns/Brigid_Berlin"/>
 
@@ -23670,9 +23651,9 @@
 
 <ns:Actor rdf:about="http://example.org/ns/Manon_Chevallier"/>
 
-<ns:Director rdf:about="http://example.org/ns/Vincent_Paronnaud">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Vincent_Paronnaud">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Actor rdf:about="http://example.org/ns/Nigel_Pivaro"/>
 
@@ -23852,9 +23833,9 @@
 
 <ns:Writer rdf:about="http://example.org/ns/Tom_McGowan"/>
 
-<ns:Director rdf:about="http://example.org/ns/Gary_Ross">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Gary_Ross">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Actor rdf:about="http://example.org/ns/Andrzej_Seweryn"/>
 
@@ -23870,17 +23851,17 @@
 
 <ns:Actor rdf:about="http://example.org/ns/Christophe_Minie"/>
 
-<ns:Director rdf:about="http://example.org/ns/Federico_Fellini">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Federico_Fellini">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Actor rdf:about="http://example.org/ns/Jenny_Shakeshaft"/>
 
 <ns:Actor rdf:about="http://example.org/ns/Tommy_Hanlon_Jr."/>
 
-<ns:Director rdf:about="http://example.org/ns/Peter_Greenaway">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Peter_Greenaway">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Actor rdf:about="http://example.org/ns/Perfecto"/>
 
@@ -23890,9 +23871,9 @@
 
 <ns:Actor rdf:about="http://example.org/ns/Bahar_Soomekh"/>
 
-<ns:Director rdf:about="http://example.org/ns/George_Ratliff">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/George_Ratliff">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Writer rdf:about="http://example.org/ns/Clive_Dawson"/>
 
@@ -23994,9 +23975,9 @@
 
 <ns:Actor rdf:about="http://example.org/ns/Don_McManus"/>
 
-<ns:Director rdf:about="http://example.org/ns/E._Elias_Merhige">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/E._Elias_Merhige">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Actor rdf:about="http://example.org/ns/Marc_Robinson"/>
 
@@ -24064,9 +24045,9 @@
 
 <ns:Actor rdf:about="http://example.org/ns/Linda_Black"/>
 
-<ns:Director rdf:about="http://example.org/ns/Lone_Scherfig">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Lone_Scherfig">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Actor rdf:about="http://example.org/ns/Niels_Olsen"/>
 
@@ -24088,9 +24069,9 @@
 
 <ns:Actor rdf:about="http://example.org/ns/Paul_Henreid"/>
 
-<ns:Director rdf:about="http://example.org/ns/Quinton_Peeples">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Quinton_Peeples">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Actor rdf:about="http://example.org/ns/David_Eigenberg"/>
 
@@ -24108,9 +24089,9 @@
 
 <ns:Actor rdf:about="http://example.org/ns/Cameron_Mitchell"/>
 
-<ns:Director rdf:about="http://example.org/ns/Joshua_Marston">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Joshua_Marston">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Actor rdf:about="http://example.org/ns/Llewella_Gideon"/>
 
@@ -24144,15 +24125,15 @@
 
 <ns:Actor rdf:about="http://example.org/ns/NiCole_Robinson"/>
 
-<ns:Director rdf:about="http://example.org/ns/M._Night_Shyamalan">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/M._Night_Shyamalan">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Actor rdf:about="http://example.org/ns/Gerald_Berns"/>
 
-<ns:Director rdf:about="http://example.org/ns/Aziz_Mirza">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Aziz_Mirza">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Actor rdf:about="http://example.org/ns/Maxine_Holden"/>
 
@@ -24192,9 +24173,9 @@
 
 <ns:Actor rdf:about="http://example.org/ns/Rosel_Zech"/>
 
-<ns:Director rdf:about="http://example.org/ns/Conor_McMahon">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Conor_McMahon">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Actor rdf:about="http://example.org/ns/Paul_Birchard"/>
 
@@ -24543,8 +24524,8 @@
 <ns:Actor rdf:about="http://example.org/ns/Gary_Graham"/>
 
 <ns:Actor rdf:about="http://example.org/ns/Spike_Lee">
-  <rdf:type rdf:resource="http://example.org/ns/Director"/>
   <rdf:type rdf:resource="http://example.org/ns/Writer"/>
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
 </ns:Actor>
 
 <ns:Actor rdf:about="http://example.org/ns/Ida_Dwinger"/>
@@ -24581,9 +24562,9 @@
 
 <ns:Actor rdf:about="http://example.org/ns/Robert_Wagner"/>
 
-<ns:Director rdf:about="http://example.org/ns/Nic_Balthazar">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Nic_Balthazar">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Actor rdf:about="http://example.org/ns/Ka-Chuen_Tam"/>
 
@@ -24615,9 +24596,9 @@
 
 <ns:Actor rdf:about="http://example.org/ns/Scott_Brady"/>
 
-<ns:Director rdf:about="http://example.org/ns/Don_Schain">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Don_Schain">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Writer rdf:about="http://example.org/ns/Paul_Laverty"/>
 
@@ -24656,8 +24637,8 @@
 <ns:Actor rdf:about="http://example.org/ns/Tim_McIntire"/>
 
 <ns:Actor rdf:about="http://example.org/ns/Richard_Dutcher">
-  <rdf:type rdf:resource="http://example.org/ns/Director"/>
   <rdf:type rdf:resource="http://example.org/ns/Writer"/>
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
 </ns:Actor>
 
 <ns:Actor rdf:about="http://example.org/ns/Donatas_Banionis"/>
@@ -24736,13 +24717,13 @@
 
 <ns:Company rdf:about="http://example.org/ns/Millenium_Pictures"/>
 
-<ns:Director rdf:about="http://example.org/ns/Wolfgang_Murnberger">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Wolfgang_Murnberger">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
-<ns:Director rdf:about="http://example.org/ns/Bong_Joon_Ho">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Bong_Joon_Ho">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Company rdf:about="http://example.org/ns/Maximum_Vacuum"/>
 
@@ -24840,9 +24821,9 @@
 
 <ns:Writer rdf:about="http://example.org/ns/Stephen_King"/>
 
-<ns:Director rdf:about="http://example.org/ns/John_Carney">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/John_Carney">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Country rdf:about="http://example.org/ns/Belgium"/>
 
@@ -25026,9 +25007,9 @@
 
 <ns:Actor rdf:about="http://example.org/ns/Gabriel_Mann"/>
 
-<ns:Director rdf:about="http://example.org/ns/Roland_Emmerich">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Roland_Emmerich">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Director rdf:about="http://example.org/ns/Joel_Schumacher"/>
 
@@ -25036,9 +25017,9 @@
 
 <ns:Writer rdf:about="http://example.org/ns/Claudine_West"/>
 
-<ns:Director rdf:about="http://example.org/ns/Hans_Pos">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Hans_Pos">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Actor rdf:about="http://example.org/ns/Hailey_Noelle_Johnson"/>
 
@@ -25326,9 +25307,9 @@
 
 <ns:Actor rdf:about="http://example.org/ns/Mabel_Rivera"/>
 
-<ns:Director rdf:about="http://example.org/ns/Sterlin_Harjo">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Sterlin_Harjo">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Actor rdf:about="http://example.org/ns/Gabriele_Ferzetti"/>
 
@@ -25356,17 +25337,17 @@
 
 <ns:Actor rdf:about="http://example.org/ns/Elise_Eberle"/>
 
-<ns:Director rdf:about="http://example.org/ns/Adam_Gierasch">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Adam_Gierasch">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Actor rdf:about="http://example.org/ns/Yosef_Shiloach"/>
 
 <ns:Actor rdf:about="http://example.org/ns/Chipo_Chung"/>
 
-<ns:Director rdf:about="http://example.org/ns/David_Lynch">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/David_Lynch">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Actor rdf:about="http://example.org/ns/Gillian_Barge"/>
 
@@ -25486,9 +25467,9 @@
 
 <ns:Actor rdf:about="http://example.org/ns/Sean_Brown"/>
 
-<ns:Director rdf:about="http://example.org/ns/Gregory_Nava">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Gregory_Nava">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Actor rdf:about="http://example.org/ns/Joseph_Gilgun"/>
 
@@ -25514,9 +25495,9 @@
 
 <ns:Actor rdf:about="http://example.org/ns/Paul_Bartel"/>
 
-<ns:Director rdf:about="http://example.org/ns/Robby_Henson">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Robby_Henson">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Writer rdf:about="http://example.org/ns/Sameer_Tandon"/>
 
@@ -25544,9 +25525,9 @@
 
 <ns:Company rdf:about="http://example.org/ns/Essential_Entertainment"/>
 
-<ns:Director rdf:about="http://example.org/ns/James_Orr">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/James_Orr">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Actor rdf:about="http://example.org/ns/Frederick_Stafford"/>
 
@@ -25572,9 +25553,9 @@
 
 <ns:Actor rdf:about="http://example.org/ns/Kevin_Spacey"/>
 
-<ns:Director rdf:about="http://example.org/ns/Takashi_Shimizu">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Takashi_Shimizu">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Company rdf:about="http://example.org/ns/Channel_Four_Films"/>
 
@@ -25586,9 +25567,9 @@
 
 <ns:Actor rdf:about="http://example.org/ns/Keith_Campbell"/>
 
-<ns:Director rdf:about="http://example.org/ns/Tennyson_Bardwell">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Tennyson_Bardwell">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Actor rdf:about="http://example.org/ns/Jo_Prestia"/>
 
@@ -25642,9 +25623,9 @@
 
 <ns:Actor rdf:about="http://example.org/ns/Mariah_Iman_Wilson"/>
 
-<ns:Director rdf:about="http://example.org/ns/Chris_Matheson">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Chris_Matheson">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Actor rdf:about="http://example.org/ns/Eric_Bouwer"/>
 
@@ -25730,9 +25711,9 @@
 
 <ns:Actor rdf:about="http://example.org/ns/Josh_Zuckerman"/>
 
-<ns:Director rdf:about="http://example.org/ns/Lukas_Moodysson">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Lukas_Moodysson">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Actor rdf:about="http://example.org/ns/Michel_Fau"/>
 
@@ -25740,9 +25721,9 @@
 
 <ns:Language rdf:about="http://example.org/ns/Norwegian"/>
 
-<ns:Director rdf:about="http://example.org/ns/Michael_Polish">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Michael_Polish">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Actor rdf:about="http://example.org/ns/Guy_Torry"/>
 
@@ -25794,9 +25775,9 @@
 
 <ns:Actor rdf:about="http://example.org/ns/Frank_Vincent"/>
 
-<ns:Director rdf:about="http://example.org/ns/Terry_George">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Terry_George">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Actor rdf:about="http://example.org/ns/Jay_Widjajanto"/>
 
@@ -25830,9 +25811,9 @@
 
 <ns:Actor rdf:about="http://example.org/ns/Melissa_Allman"/>
 
-<ns:Director rdf:about="http://example.org/ns/John_Carpenter">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/John_Carpenter">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Actor rdf:about="http://example.org/ns/Victor_J._Ho"/>
 
@@ -25842,9 +25823,9 @@
 
 <ns:Actor rdf:about="http://example.org/ns/David_Dundara"/>
 
-<ns:Director rdf:about="http://example.org/ns/Ed_Radtke">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Ed_Radtke">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Actor rdf:about="http://example.org/ns/Nora_Tschirner"/>
 
@@ -25928,9 +25909,9 @@
 
 <ns:Actor rdf:about="http://example.org/ns/Rahul_Khanna"/>
 
-<ns:Director rdf:about="http://example.org/ns/Francis_Ford_Coppola">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Francis_Ford_Coppola">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Actor rdf:about="http://example.org/ns/Eartha_Kitt"/>
 
@@ -25946,9 +25927,9 @@
 
 <ns:Actor rdf:about="http://example.org/ns/Nicholas_Irons"/>
 
-<ns:Director rdf:about="http://example.org/ns/James_Mangold">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/James_Mangold">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Actor rdf:about="http://example.org/ns/Frederick_Stuart"/>
 
@@ -25990,9 +25971,9 @@
 
 <ns:Actor rdf:about="http://example.org/ns/Geeta"/>
 
-<ns:Director rdf:about="http://example.org/ns/Apichatpong_Weerasethakul">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Apichatpong_Weerasethakul">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Actor rdf:about="http://example.org/ns/Peter_Graves"/>
 
@@ -26016,9 +25997,9 @@
 
 <ns:Actor rdf:about="http://example.org/ns/Sandra_Taylor"/>
 
-<ns:Director rdf:about="http://example.org/ns/Jeff_Nichols">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Jeff_Nichols">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Actor rdf:about="http://example.org/ns/Camilla_Belle"/>
 
@@ -26054,9 +26035,9 @@
 
 <ns:Actor rdf:about="http://example.org/ns/Ossta_Shah_Tir"/>
 
-<ns:Director rdf:about="http://example.org/ns/Woody_Allen">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Woody_Allen">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Actor rdf:about="http://example.org/ns/Creagen_Dow"/>
 
@@ -26198,9 +26179,9 @@
 
 <ns:Actor rdf:about="http://example.org/ns/Wolfango_Soldati"/>
 
-<ns:Director rdf:about="http://example.org/ns/Darrell_Roodt">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Darrell_Roodt">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Director rdf:about="http://example.org/ns/J.A._Bayona"/>
 
@@ -26322,9 +26303,9 @@
 
 <ns:Actor rdf:about="http://example.org/ns/Ione_M._Telech"/>
 
-<ns:Director rdf:about="http://example.org/ns/Oxide_Chun_Pang">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Oxide_Chun_Pang">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Actor rdf:about="http://example.org/ns/Golden_Brooks"/>
 
@@ -26373,8 +26354,8 @@
 <ns:Actor rdf:about="http://example.org/ns/Lucia_Sanchez"/>
 
 <ns:Actor rdf:about="http://example.org/ns/Jennifer_Kirabo">
-  <rdf:type rdf:resource="http://example.org/ns/Director"/>
   <rdf:type rdf:resource="http://example.org/ns/Writer"/>
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
 </ns:Actor>
 
 <ns:Actor rdf:about="http://example.org/ns/Ken_Hanes">
@@ -26401,9 +26382,9 @@
 
 <ns:Actor rdf:about="http://example.org/ns/Laurence_Fishburne"/>
 
-<ns:Director rdf:about="http://example.org/ns/Jordan_Walker-Pearlman">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Jordan_Walker-Pearlman">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Actor rdf:about="http://example.org/ns/Chiwetel_Ejiofor"/>
 
@@ -26471,9 +26452,9 @@
 
 <ns:Country rdf:about="http://example.org/ns/North_Korea"/>
 
-<ns:Director rdf:about="http://example.org/ns/J._Mackye_Gruber">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/J._Mackye_Gruber">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Writer rdf:about="http://example.org/ns/Alexander_Trocchi"/>
 
@@ -26500,8 +26481,8 @@
 <ns:Actor rdf:about="http://example.org/ns/Preston_Nyman"/>
 
 <ns:Actor rdf:about="http://example.org/ns/Rafi_Pitts">
-  <rdf:type rdf:resource="http://example.org/ns/Director"/>
   <rdf:type rdf:resource="http://example.org/ns/Writer"/>
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
 </ns:Actor>
 
 <ns:Company rdf:about="http://example.org/ns/Alfred_J._Hitchcock_Productions"/>
@@ -26830,9 +26811,9 @@
 
 <ns:Company rdf:about="http://example.org/ns/Revolution_Studios"/>
 
-<ns:Director rdf:about="http://example.org/ns/Ekachai_Uekrongtham">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Ekachai_Uekrongtham">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Actor rdf:about="http://example.org/ns/Jaap_Postma"/>
 
@@ -26848,9 +26829,9 @@
 
 <ns:Writer rdf:about="http://example.org/ns/Marcello_Marchesi"/>
 
-<ns:Director rdf:about="http://example.org/ns/Carlos_Diegues">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Carlos_Diegues">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Actor rdf:about="http://example.org/ns/Jack_Creley"/>
 
@@ -26902,9 +26883,9 @@
 
 <ns:Actor rdf:about="http://example.org/ns/Ronald_Guttman"/>
 
-<ns:Director rdf:about="http://example.org/ns/Roman_Coppola">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Roman_Coppola">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Actor rdf:about="http://example.org/ns/Ian_Waldock"/>
 
@@ -26980,9 +26961,9 @@
 
 <ns:Actor rdf:about="http://example.org/ns/Alice_Krige"/>
 
-<ns:Director rdf:about="http://example.org/ns/Ayelet_Menahemi">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Ayelet_Menahemi">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Actor rdf:about="http://example.org/ns/Donald_J._Lee_Jr."/>
 
@@ -26998,9 +26979,9 @@
 
 <ns:Actor rdf:about="http://example.org/ns/Charles_Napier"/>
 
-<ns:Director rdf:about="http://example.org/ns/Sara_Sugarman">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Sara_Sugarman">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Actor rdf:about="http://example.org/ns/Parker_Posey"/>
 
@@ -27012,9 +26993,9 @@
 
 <ns:Actor rdf:about="http://example.org/ns/Leonardo_DiCaprio"/>
 
-<ns:Director rdf:about="http://example.org/ns/Fernando_Fragata">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Fernando_Fragata">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Writer rdf:about="http://example.org/ns/Garon_Tsuchiya"/>
 
@@ -27216,9 +27197,9 @@
 
 <ns:Director rdf:about="http://example.org/ns/Louis_Leterrier"/>
 
-<ns:Director rdf:about="http://example.org/ns/Frederick_Stephani">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Frederick_Stephani">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Actor rdf:about="http://example.org/ns/Jeannetta_Arnette"/>
 
@@ -27262,9 +27243,9 @@
 
 <ns:Actor rdf:about="http://example.org/ns/Eddie_Daniels"/>
 
-<ns:Director rdf:about="http://example.org/ns/Michael_Rymer">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Michael_Rymer">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Actor rdf:about="http://example.org/ns/Peter_Law"/>
 
@@ -27472,9 +27453,9 @@
 
 <ns:Actor rdf:about="http://example.org/ns/Shmuel_Rodensky"/>
 
-<ns:Director rdf:about="http://example.org/ns/Deepa_Mehta">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Deepa_Mehta">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Actor rdf:about="http://example.org/ns/Charley_Ramm"/>
 
@@ -27580,9 +27561,9 @@
 
 <ns:Actor rdf:about="http://example.org/ns/Lars_Frode"/>
 
-<ns:Director rdf:about="http://example.org/ns/David_Koepp">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/David_Koepp">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Actor rdf:about="http://example.org/ns/Divya_Jagdale"/>
 
@@ -27622,9 +27603,9 @@
 
 <ns:Writer rdf:about="http://example.org/ns/Ken_Furusawa"/>
 
-<ns:Director rdf:about="http://example.org/ns/Michael_Benveniste">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Michael_Benveniste">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Actor rdf:about="http://example.org/ns/Rajpal_Yadav"/>
 
@@ -27669,8 +27650,8 @@
 <ns:Actor rdf:about="http://example.org/ns/Simon_Burke"/>
 
 <ns:Actor rdf:about="http://example.org/ns/Julianna_Lavin">
-  <rdf:type rdf:resource="http://example.org/ns/Director"/>
   <rdf:type rdf:resource="http://example.org/ns/Writer"/>
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
 </ns:Actor>
 
 <ns:Country rdf:about="http://example.org/ns/Morocco"/>
@@ -27847,9 +27828,9 @@
 
 <ns:Writer rdf:about="http://example.org/ns/Robin_Bhatt"/>
 
-<ns:Director rdf:about="http://example.org/ns/Russ_Meyer">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Russ_Meyer">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Actor rdf:about="http://example.org/ns/Jean-Claude_Bouillaud"/>
 
@@ -27901,9 +27882,9 @@
 
 <ns:Actor rdf:about="http://example.org/ns/Carmen-Maja_Antoni"/>
 
-<ns:Director rdf:about="http://example.org/ns/Heinrich_Breloer">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Heinrich_Breloer">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Company rdf:about="http://example.org/ns/Ghostown_Film_Management"/>
 
@@ -28027,9 +28008,9 @@
 
 <ns:Actor rdf:about="http://example.org/ns/Peter_Stockbridge"/>
 
-<ns:Director rdf:about="http://example.org/ns/John_Singleton">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/John_Singleton">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Actor rdf:about="http://example.org/ns/Keye_Luke"/>
 
@@ -28185,9 +28166,9 @@
 
 <ns:Actor rdf:about="http://example.org/ns/Paul_Guilfoyle"/>
 
-<ns:Director rdf:about="http://example.org/ns/Hideaki_Anno">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Hideaki_Anno">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Actor rdf:about="http://example.org/ns/John_Carradine"/>
 
@@ -28263,9 +28244,9 @@
 
 <ns:Actor rdf:about="http://example.org/ns/Sophie_Main"/>
 
-<ns:Director rdf:about="http://example.org/ns/James_Cameron">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/James_Cameron">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Actor rdf:about="http://example.org/ns/Tamara_Lees"/>
 
@@ -28387,9 +28368,9 @@
 
 <ns:Actor rdf:about="http://example.org/ns/Stuart_Robinson"/>
 
-<ns:Director rdf:about="http://example.org/ns/Alexandre_Rockwell">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Alexandre_Rockwell">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Writer rdf:about="http://example.org/ns/Ehren_Kruger"/>
 
@@ -28417,9 +28398,9 @@
 
 <ns:Actor rdf:about="http://example.org/ns/Gurpreet_Ghuggi"/>
 
-<ns:Director rdf:about="http://example.org/ns/Murali_K._Thalluri">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Murali_K._Thalluri">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Actor rdf:about="http://example.org/ns/Philip_Baker_Hall"/>
 
@@ -28445,9 +28426,9 @@
 
 <ns:Actor rdf:about="http://example.org/ns/Rene_Auberjonois"/>
 
-<ns:Director rdf:about="http://example.org/ns/Claudio_Caligari">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Claudio_Caligari">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Company rdf:about="http://example.org/ns/Little_Shark_Entertainment_GmbH"/>
 
@@ -28473,9 +28454,9 @@
 
 <ns:Actor rdf:about="http://example.org/ns/Joaquim_de_Almeida"/>
 
-<ns:Director rdf:about="http://example.org/ns/Kerry_Conran">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Kerry_Conran">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Director rdf:about="http://example.org/ns/Richard_C._Sarafian"/>
 
@@ -28595,9 +28576,9 @@
 
 <ns:Actor rdf:about="http://example.org/ns/Paul_Michael_Bloodgood"/>
 
-<ns:Director rdf:about="http://example.org/ns/Gerald_McMorrow">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Gerald_McMorrow">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Actor rdf:about="http://example.org/ns/Jamey_Sheridan"/>
 
@@ -28825,9 +28806,9 @@
 
 <ns:Actor rdf:about="http://example.org/ns/Richard_Carle"/>
 
-<ns:Director rdf:about="http://example.org/ns/Mark_Steven_Johnson">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Mark_Steven_Johnson">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Actor rdf:about="http://example.org/ns/Doo-Yeong_Choi"/>
 
@@ -28859,9 +28840,9 @@
 
 <ns:Actor rdf:about="http://example.org/ns/Pol_Goossen"/>
 
-<ns:Director rdf:about="http://example.org/ns/Eric_Bress">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Eric_Bress">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Actor rdf:about="http://example.org/ns/Margo_Moorer"/>
 
@@ -28877,9 +28858,9 @@
 
 <ns:Actor rdf:about="http://example.org/ns/Kevin_G._Schmidt"/>
 
-<ns:Director rdf:about="http://example.org/ns/Kurt_Wimmer">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Kurt_Wimmer">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Actor rdf:about="http://example.org/ns/Lee_Kayman"/>
 
@@ -28943,9 +28924,9 @@
 
 <ns:Actor rdf:about="http://example.org/ns/Ken_Taylor"/>
 
-<ns:Director rdf:about="http://example.org/ns/Wallace_Wolodarsky">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Wallace_Wolodarsky">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Actor rdf:about="http://example.org/ns/Sonja_Kolthoff"/>
 
@@ -28961,9 +28942,9 @@
 
 <ns:Actor rdf:about="http://example.org/ns/Jared_Harris"/>
 
-<ns:Director rdf:about="http://example.org/ns/Tod_Williams">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Tod_Williams">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Actor rdf:about="http://example.org/ns/Dennis_Farina"/>
 
@@ -29073,9 +29054,9 @@
 
 <ns:Writer rdf:about="http://example.org/ns/Aatish_Kapadia"/>
 
-<ns:Director rdf:about="http://example.org/ns/Hrishikesh_Mukherjee">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Hrishikesh_Mukherjee">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Actor rdf:about="http://example.org/ns/Casey_Affleck">
   <rdf:type rdf:resource="http://example.org/ns/Writer"/>
@@ -29141,9 +29122,9 @@
 
 <ns:Actor rdf:about="http://example.org/ns/April_Hernandez_Castillo"/>
 
-<ns:Director rdf:about="http://example.org/ns/Luchino_Visconti">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Luchino_Visconti">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Actor rdf:about="http://example.org/ns/Jack_Impellizzeri"/>
 
@@ -29295,9 +29276,9 @@
 
 <ns:Actor rdf:about="http://example.org/ns/Noah_Emmerich"/>
 
-<ns:Director rdf:about="http://example.org/ns/Stephen_Norrington">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Stephen_Norrington">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Actor rdf:about="http://example.org/ns/Sidney_Toler"/>
 
@@ -29337,9 +29318,9 @@
 
 <ns:Actor rdf:about="http://example.org/ns/Molly_Shannon"/>
 
-<ns:Director rdf:about="http://example.org/ns/Jonathan_Nossiter">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Jonathan_Nossiter">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Actor rdf:about="http://example.org/ns/Karl_Urban"/>
 
@@ -29417,9 +29398,9 @@
 
 <ns:Actor rdf:about="http://example.org/ns/Stephen_Jasso"/>
 
-<ns:Director rdf:about="http://example.org/ns/Theodore_Witcher">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Theodore_Witcher">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Actor rdf:about="http://example.org/ns/Paula_Shaw"/>
 
@@ -29465,13 +29446,13 @@
 
 <ns:Actor rdf:about="http://example.org/ns/David_Hyde_Pierce"/>
 
-<ns:Director rdf:about="http://example.org/ns/Nicole_Holofcener">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Nicole_Holofcener">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
-<ns:Director rdf:about="http://example.org/ns/Eli_Roth">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Eli_Roth">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Actor rdf:about="http://example.org/ns/Mark_Bringelson"/>
 
@@ -29505,9 +29486,9 @@
 
 <ns:Writer rdf:about="http://example.org/ns/Lee_Hall"/>
 
-<ns:Director rdf:about="http://example.org/ns/Sujoy_Ghosh">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Sujoy_Ghosh">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Actor rdf:about="http://example.org/ns/Elisa_Gabrielli"/>
 
@@ -29569,17 +29550,17 @@
 
 <ns:Actor rdf:about="http://example.org/ns/Kevin_Foster"/>
 
-<ns:Director rdf:about="http://example.org/ns/Todd_Robinson">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Todd_Robinson">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Actor rdf:about="http://example.org/ns/Harold_Key"/>
 
 <ns:Actor rdf:about="http://example.org/ns/Charles_Stevens"/>
 
-<ns:Director rdf:about="http://example.org/ns/Richard_Greenberg">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Richard_Greenberg">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Actor rdf:about="http://example.org/ns/Anne_Jacques"/>
 
@@ -29751,9 +29732,9 @@
 
 <ns:Director rdf:about="http://example.org/ns/Marc_Evans"/>
 
-<ns:Director rdf:about="http://example.org/ns/Josef_Fares">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Josef_Fares">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Actor rdf:about="http://example.org/ns/Michaela_Amler"/>
 
@@ -29761,17 +29742,17 @@
 
 <ns:Actor rdf:about="http://example.org/ns/Heidi_Armbruster"/>
 
-<ns:Director rdf:about="http://example.org/ns/Gustavo_Graef_Marino">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Gustavo_Graef_Marino">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Writer rdf:about="http://example.org/ns/Laurent_Chouchan"/>
 
 <ns:Actor rdf:about="http://example.org/ns/Gerd_Heinz"/>
 
-<ns:Director rdf:about="http://example.org/ns/David_Wain">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/David_Wain">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Writer rdf:about="http://example.org/ns/Bono"/>
 
@@ -29855,9 +29836,9 @@
 
 <ns:Actor rdf:about="http://example.org/ns/Ben_Himura"/>
 
-<ns:Director rdf:about="http://example.org/ns/Neil_Jordan">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Neil_Jordan">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Writer rdf:about="http://example.org/ns/Mino_Roli"/>
 
@@ -29883,9 +29864,9 @@
 
 <ns:Actor rdf:about="http://example.org/ns/Daryl_Hannah"/>
 
-<ns:Director rdf:about="http://example.org/ns/Michel_Munz">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Michel_Munz">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Writer rdf:about="http://example.org/ns/Kristina_Dubin"/>
 
@@ -29955,9 +29936,9 @@
 
 <ns:Actor rdf:about="http://example.org/ns/Douglas_Stewart_Wallace"/>
 
-<ns:Director rdf:about="http://example.org/ns/Doris_Wishman">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Doris_Wishman">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Actor rdf:about="http://example.org/ns/John_Hallam"/>
 
@@ -29981,9 +29962,9 @@
 
 <ns:Actor rdf:about="http://example.org/ns/Nana_Okada"/>
 
-<ns:Director rdf:about="http://example.org/ns/Kevin_Munroe">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Kevin_Munroe">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Actor rdf:about="http://example.org/ns/Brock_Peters"/>
 
@@ -30011,9 +29992,9 @@
 
 <ns:Actor rdf:about="http://example.org/ns/Bridgette_Wilson-Sampras"/>
 
-<ns:Director rdf:about="http://example.org/ns/Chang-dong_Lee">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Chang-dong_Lee">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Actor rdf:about="http://example.org/ns/Eugenio_Morales"/>
 
@@ -30191,9 +30172,9 @@
 
 <ns:Actor rdf:about="http://example.org/ns/Bernard_Fresson"/>
 
-<ns:Director rdf:about="http://example.org/ns/Sylvie_Verheyde">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Sylvie_Verheyde">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Actor rdf:about="http://example.org/ns/Wilmer_Valderrama"/>
 
@@ -30337,9 +30318,9 @@
 
 <ns:Language rdf:about="http://example.org/ns/Kurdish"/>
 
-<ns:Director rdf:about="http://example.org/ns/Marjane_Satrapi">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Marjane_Satrapi">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Actor rdf:about="http://example.org/ns/Thomas_Busch"/>
 
@@ -30421,15 +30402,15 @@
 
 <ns:Actor rdf:about="http://example.org/ns/Chris_Noth"/>
 
-<ns:Director rdf:about="http://example.org/ns/Preston_A._Whitmore_II">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Preston_A._Whitmore_II">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Company rdf:about="http://example.org/ns/Polo_Pictures_Entertainment"/>
 
-<ns:Director rdf:about="http://example.org/ns/Fruit_Chan">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Fruit_Chan">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Actor rdf:about="http://example.org/ns/Max_Casella"/>
 
@@ -30723,9 +30704,9 @@
 
 <ns:Director rdf:about="http://example.org/ns/Richard_Winer"/>
 
-<ns:Director rdf:about="http://example.org/ns/Lamberto_Bava">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Lamberto_Bava">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Director rdf:about="http://example.org/ns/Stuart_Rosenberg"/>
 
@@ -31009,9 +30990,9 @@
 
 <ns:Actor rdf:about="http://example.org/ns/Stephan_Baumecker"/>
 
-<ns:Director rdf:about="http://example.org/ns/Ben_Younger">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Ben_Younger">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Actor rdf:about="http://example.org/ns/Elizabeth_Sellars"/>
 
@@ -31079,9 +31060,9 @@
 
 <ns:Actor rdf:about="http://example.org/ns/Darlene_Lucht"/>
 
-<ns:Director rdf:about="http://example.org/ns/Andy_Warhol">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Andy_Warhol">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Actor rdf:about="http://example.org/ns/Jamal_Hadir"/>
 
@@ -31207,9 +31188,9 @@
 
 <ns:Actor rdf:about="http://example.org/ns/Jordan_Charney"/>
 
-<ns:Director rdf:about="http://example.org/ns/Bob_Fosse">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Bob_Fosse">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Actor rdf:about="http://example.org/ns/Lucas_Gregorowicz"/>
 
@@ -31615,9 +31596,9 @@
 
 <ns:Actor rdf:about="http://example.org/ns/Mark_Addy"/>
 
-<ns:Director rdf:about="http://example.org/ns/Mario_Andreacchio">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Mario_Andreacchio">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Company rdf:about="http://example.org/ns/Samuel_Fuller_Productions"/>
 
@@ -31774,8 +31755,8 @@
 <ns:Actor rdf:about="http://example.org/ns/Eugene_Byrd"/>
 
 <ns:Actor rdf:about="http://example.org/ns/Trey_Parker">
-  <rdf:type rdf:resource="http://example.org/ns/Director"/>
   <rdf:type rdf:resource="http://example.org/ns/Writer"/>
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
 </ns:Actor>
 
 <ns:Actor rdf:about="http://example.org/ns/Andrew_Bicknell"/>
@@ -32000,9 +31981,9 @@
 
 <ns:Actor rdf:about="http://example.org/ns/Gian-Carlo_Scandiuzzi"/>
 
-<ns:Director rdf:about="http://example.org/ns/Frank_Darabont">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Frank_Darabont">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Actor rdf:about="http://example.org/ns/Wendy_Raquel_Robinson"/>
 
@@ -32070,9 +32051,9 @@
 
 <ns:Actor rdf:about="http://example.org/ns/Angela_Mounsey"/>
 
-<ns:Director rdf:about="http://example.org/ns/Christian_Petzold">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Christian_Petzold">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Actor rdf:about="http://example.org/ns/Lin_Shaye"/>
 
@@ -32504,9 +32485,9 @@
 
 <ns:Writer rdf:about="http://example.org/ns/Paul_Dini"/>
 
-<ns:Director rdf:about="http://example.org/ns/Claude_Chabrol">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Claude_Chabrol">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Director rdf:about="http://example.org/ns/James_Whale"/>
 
@@ -32956,9 +32937,9 @@
 
 <ns:Actor rdf:about="http://example.org/ns/Carol_Lam_Kit-Fong"/>
 
-<ns:Director rdf:about="http://example.org/ns/Edgar_Wright">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Edgar_Wright">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Actor rdf:about="http://example.org/ns/Stefan_Polasek"/>
 
@@ -33012,9 +32993,9 @@
 
 <ns:Actor rdf:about="http://example.org/ns/Yutaka_Shimada"/>
 
-<ns:Director rdf:about="http://example.org/ns/Jean-Claude_Schlim">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Jean-Claude_Schlim">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Actor rdf:about="http://example.org/ns/Olivia_Lee"/>
 
@@ -33068,9 +33049,9 @@
 
 <ns:Actor rdf:about="http://example.org/ns/Layla_Roberts"/>
 
-<ns:Director rdf:about="http://example.org/ns/Claude_Berri">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Claude_Berri">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Actor rdf:about="http://example.org/ns/Addy_Rome"/>
 
@@ -33110,9 +33091,9 @@
 
 <ns:Actor rdf:about="http://example.org/ns/Cheryl_Ladd"/>
 
-<ns:Director rdf:about="http://example.org/ns/Laurence_Malkin">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Writer rdf:about="http://example.org/ns/Laurence_Malkin">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
 <ns:Actor rdf:about="http://example.org/ns/Ken_Magee"/>
 
@@ -34610,893 +34591,893 @@
 
 <ns:Actor rdf:about="http://example.org/ns/Gary_Dourdan"/>
 
-<ns:Actor rdf:about="http://example.org/ns/Joachim_Król"/>
+<ns:Writer rdf:about="http://example.org/ns/Malin_Lagerlöf"/>
 
-<ns:Actor rdf:about="http://example.org/ns/Daniel_Brühl"/>
+<ns:Actor rdf:about="http://example.org/ns/Éva_Darlan"/>
 
-<ns:Actor rdf:about="http://example.org/ns/Aurore_Clément"/>
+<ns:Actor rdf:about="http://example.org/ns/Mapi_Galán"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Loïc_Peckels"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Lubomír_Bukový"/>
+
+<ns:Actor rdf:about="http://example.org/ns/André_Wilms"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Jaume_Montané"/>
+
+<ns:Company rdf:about="http://example.org/ns/Les_Films_de_la_Boétie"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Kenjirô_Ishimaru"/>
+
+<ns:Director rdf:about="http://example.org/ns/Jan_Mikael_Håfström"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Hans_Wyprächtiger"/>
+
+<ns:Company rdf:about="http://example.org/ns/Produire_à_Paris"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Thibault_Vinçon"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Joel_Östlund"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Rodrigo_Leão"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Joséphine_de_La_Baume"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Martin_Löschmann"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Jessica_Zandén"/>
 
 <ns:Actor rdf:about="http://example.org/ns/Jan_Filipenský"/>
 
+<ns:Actor rdf:about="http://example.org/ns/Silvia_Suvadová"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Georgiana_Sîrbu"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Gösta_Bredefeldt"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Carlos_Andrés_Gómez"/>
+
+<ns:Actor rdf:about="http://example.org/ns/David_Bonté_Atterberg"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Marja_Packalén"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Karin_Bjurström"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Tina_Hedström"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Siân_Phillips"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Valérie_Kéruzoré"/>
+
 <ns:Actor rdf:about="http://example.org/ns/Diane_Lavallée"/>
 
-<ns:Actor rdf:about="http://example.org/ns/Ewa_Fröling"/>
+<ns:Actor rdf:about="http://example.org/ns/Milton_Gonçalves"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Kei_Satô"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Helmut_Körschgen"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Ayumi_Itô"/>
+
+<ns:Writer rdf:about="http://example.org/ns/Étienne_Chatiliez">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
+
+<ns:Actor rdf:about="http://example.org/ns/Lyne_Renée"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Téa_Leoni"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Türkü_Turan"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Héctor_Tomás"/>
+
+<ns:Director rdf:about="http://example.org/ns/Joachim_Rønning"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Jean-François_Stévenin"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Shelley_Kästner"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Marie-Gaëlle_Cals"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Miguel_Pérez"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Emmanuelle_Béart"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Frantisek_Velecký"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Mario_Iván_Martínez"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Charles_Albert_Patiño"/>
 
 <ns:Actor rdf:about="http://example.org/ns/Murilo_Benício"/>
 
-<ns:Actor rdf:about="http://example.org/ns/Karel_Hermánek"/>
+<ns:Actor rdf:about="http://example.org/ns/Kenpachirô_Satsuma"/>
 
-<ns:Actor rdf:about="http://example.org/ns/Kyôko_Inoue"/>
+<ns:Actor rdf:about="http://example.org/ns/Patricia_Guzmán"/>
 
-<ns:Actor rdf:about="http://example.org/ns/Óscar_Casas"/>
+<ns:Company rdf:about="http://example.org/ns/Comme_des_Cinémas"/>
 
-<ns:Actor rdf:about="http://example.org/ns/Jérôme_Kircher"/>
+<ns:Actor rdf:about="http://example.org/ns/Dieter_Jäger"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Björn_Andersson"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Kôji_Yakusho"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Doña_Croll"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Roger_Príncep"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Björn_Gustafson"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Théo_Cohan"/>
+
+<ns:Company rdf:about="http://example.org/ns/Cinémaginaire_Inc."/>
+
+<ns:Actor rdf:about="http://example.org/ns/Hannu-Pekka_Björkman"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Markéta_Irglová"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Rosa_María_Bianchi"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Oscar_Martínez"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Václav_Sloup"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Belén_Rueda"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Stella_Zázvorková"/>
+
+<ns:Writer rdf:about="http://example.org/ns/Jirí_Gold"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Leïla_Bekhti"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Arsène_Mosca"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Renée_Asherson"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Gérard_Croce"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Cristián_Campos"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Clément_Harari"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Rodrigo_Sánchez_Borhorquez"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Balázs_Koós"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Kutrín_Kreredis"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Philip_Zandén"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Gérard_Jugnot">
+  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Actor>
+
+<ns:Actor rdf:about="http://example.org/ns/Nicolas_Marié"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Tito_Guízar"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Gösta_Ekman"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Ulrich_Mühe"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Kentarô_Kaji"/>
+
+<ns:Company rdf:about="http://example.org/ns/Fidélité_Productions"/>
+
+<ns:Actor rdf:about="http://example.org/ns/João_Canijo"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Juliane_Köhler"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Momoko_Kôchi"/>
+
+<ns:Writer rdf:about="http://example.org/ns/Roel_Reiné"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Éric_Naggar"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Álvaro_Roig"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Stellan_Skarsgård"/>
+
+<ns:Writer rdf:about="http://example.org/ns/Aki_Kaurismäki"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Patricia_Gélin"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Ewa_Fröling"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Charly_Hübner"/>
+
+<ns:Writer rdf:about="http://example.org/ns/Ishirô_Honda">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
+
+<ns:Actor rdf:about="http://example.org/ns/Justus_von_Dohnányi"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Yûsuke_Santamaria"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Hans-Günter_Martens"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Karel_Dobrý"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Wotan_Wilke_Möhring"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Geórgia_Reck"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Aurélie_Meriel"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Yôko_Maki"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Tôru_Tezuka"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Patrick_Préjean"/>
 
 <ns:Actor rdf:about="http://example.org/ns/Mechthild_Großmann"/>
 
 <ns:Actor rdf:about="http://example.org/ns/Loïs_Dols_de_Jong"/>
 
-<ns:Actor rdf:about="http://example.org/ns/Götz_Otto"/>
+<ns:Writer rdf:about="http://example.org/ns/Kôji_Suzuki"/>
 
-<ns:Actor rdf:about="http://example.org/ns/Hélène_Duc"/>
+<ns:Writer rdf:about="http://example.org/ns/Pea_Fröhlich"/>
 
-<ns:Actor rdf:about="http://example.org/ns/Laurent_Grévill"/>
+<ns:Writer rdf:about="http://example.org/ns/Jean-Claude_Carrière"/>
 
-<ns:Actor rdf:about="http://example.org/ns/Slávka_Budínová"/>
+<ns:Actor rdf:about="http://example.org/ns/Catherine_Allégret"/>
 
-<ns:Actor rdf:about="http://example.org/ns/Richy_Müller"/>
+<ns:Actor rdf:about="http://example.org/ns/Shannon_Royé"/>
 
-<ns:Actor rdf:about="http://example.org/ns/Ellenie_Salvo_González"/>
+<ns:Writer rdf:about="http://example.org/ns/Akif_Pirinçci"/>
 
-<ns:Actor rdf:about="http://example.org/ns/Lars_Göran_Persson"/>
+<ns:Actor rdf:about="http://example.org/ns/Éric_Berger"/>
 
-<ns:Actor rdf:about="http://example.org/ns/Götz_Burger"/>
+<ns:Company rdf:about="http://example.org/ns/Filmové_studio_Barrandov"/>
 
-<ns:Actor rdf:about="http://example.org/ns/Emilio_Echevarría"/>
+<ns:Actor rdf:about="http://example.org/ns/Yûto_Kawase"/>
 
-<ns:Actor rdf:about="http://example.org/ns/Joachim_Bißmeier"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Marco_Pérez"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Gérard_Bonn"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Óscar_Lara"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Ondrej_Vetchý"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Gert_Fröbe"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Hardy_Krüger"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Ulrich_Mühe"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Gösta_Ekman"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Bérangère_Bonvoisin"/>
-
-<ns:Actor rdf:about="http://example.org/ns/André_Rossouw"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Türkü_Turan"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Carmen_López"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Bodo_Österling"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Justus_von_Dohnányi"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Zaide_Silvia_Gutiérrez"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Jean_Thévenin"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Juliette_Gréco"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Hannu-Pekka_Björkman"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Jean-François_Balmer"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Philip_Zandén"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Günther_Kaufmann"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Tarô_Arakawa"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Tesshô_Genda"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Penélope_Cruz"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Kutrín_Kreredis"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Sándor_Bolla"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Axel_Düberg"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Yôko_Maki"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Annemarie_Düringer"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Gérard_Lanvin"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Milena_Dreißig"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Georgiana_Sîrbu"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Martin_Löschmann"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Gérard_Jugnot">
-  <rdf:type rdf:resource="http://example.org/ns/Director"/>
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Actor>
-
-<ns:Actor rdf:about="http://example.org/ns/François_Maistre"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Fyr_Thorvald_Strömberg"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Felipe_Mônaco"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Fidel_Béchara"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Adem_Yüksel"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Nela_Boudová"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Leïla_Bekhti"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Michael_Bublé"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Gustav_Fröhlich"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Téa_Leoni"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Jean-François_Stévenin"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Markéta_Irglová"/>
-
-<ns:Actor rdf:about="http://example.org/ns/León_Singer"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Andrés_Gertrúdix"/>
-
-<ns:Actor rdf:about="http://example.org/ns/André_Morell"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Cristián_Campos"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Magnus_Mårtenson"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Måns_Westfelt"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Zdenek_Sverák">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Actor>
-
-<ns:Actor rdf:about="http://example.org/ns/Gérard_Rudolf"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Luis_Guzmán"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Pedro_Armendáriz_Jr."/>
-
-<ns:Actor rdf:about="http://example.org/ns/José_María_Negri"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Charly_Hübner"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Véronique_Balme"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Loïc_Peckels"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Valérie_Donzelli"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Sandra_Hüller"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Per_Grundén"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Hinnerk_Schönemann"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Élodie_Bouchez"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Miguel_Pérez"/>
-
-<ns:Actor rdf:about="http://example.org/ns/René_Pribil"/>
-
-<ns:Actor rdf:about="http://example.org/ns/François_Berléand"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Ryôko_Hirosue"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Christian_Päffgen"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Stellan_Skarsgård"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Milton_Gonçalves"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Rita_Molè"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Petr_Jákl"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Stéphane_Debac"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Freddy_Rodríguez"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Björn_Gustafsson"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Arnoldo_Foà"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Makoto_Ôtake"/>
-
-<ns:Actor rdf:about="http://example.org/ns/André_Bernot"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Tom_Zé"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Hitomi_Satô"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Ayumi_Itô"/>
-
-<ns:Actor rdf:about="http://example.org/ns/André_Wilms"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Veit_Stübner"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Lourdes_Echevarría"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Wotan_Wilke_Möhring"/>
-
-<ns:Actor rdf:about="http://example.org/ns/José_Ferrer"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Obba_Babatundé"/>
-
-<ns:Actor rdf:about="http://example.org/ns/João_Canijo"/>
+<ns:Actor rdf:about="http://example.org/ns/Jana_Bittnerová"/>
 
 <ns:Actor rdf:about="http://example.org/ns/André_Arend_van_de_Noord"/>
 
-<ns:Actor rdf:about="http://example.org/ns/Esmée_de_la_Bretonière"/>
+<ns:Actor rdf:about="http://example.org/ns/Felipe_Mônaco"/>
 
-<ns:Actor rdf:about="http://example.org/ns/Arsène_Mosca"/>
+<ns:Company rdf:about="http://example.org/ns/Bórd_Scannán_na_hÉireann"/>
 
-<ns:Actor rdf:about="http://example.org/ns/Román_Ariznavarreta"/>
+<ns:Writer rdf:about="http://example.org/ns/Jean-Stéphane_Sauvaire">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
-<ns:Actor rdf:about="http://example.org/ns/Shôsuke_Tanihara"/>
+<ns:Writer rdf:about="http://example.org/ns/Peter_Märthesheimer"/>
 
-<ns:Actor rdf:about="http://example.org/ns/Mireille_Mossé"/>
+<ns:Actor rdf:about="http://example.org/ns/Arié_Elmaleh"/>
 
-<ns:Actor rdf:about="http://example.org/ns/Sepé_Tiaraju"/>
+<ns:Actor rdf:about="http://example.org/ns/Penélope_Cruz"/>
 
-<ns:Actor rdf:about="http://example.org/ns/Silvia_Suvadová"/>
+<ns:Actor rdf:about="http://example.org/ns/Léo_Boyeneh_Kote"/>
 
-<ns:Actor rdf:about="http://example.org/ns/Helmut_Körschgen"/>
+<ns:Actor rdf:about="http://example.org/ns/Freddy_Rodríguez"/>
 
-<ns:Actor rdf:about="http://example.org/ns/Jûkichi_Uno"/>
+<ns:Actor rdf:about="http://example.org/ns/Ricardo_López"/>
 
-<ns:Actor rdf:about="http://example.org/ns/Mapi_Galán"/>
+<ns:Actor rdf:about="http://example.org/ns/François_Berléand"/>
 
-<ns:Actor rdf:about="http://example.org/ns/Kanzô_Uni"/>
+<ns:Actor rdf:about="http://example.org/ns/Richy_Müller"/>
 
-<ns:Actor rdf:about="http://example.org/ns/Aurélie_Boquien"/>
+<ns:Actor rdf:about="http://example.org/ns/Antonio_García"/>
 
-<ns:Actor rdf:about="http://example.org/ns/Masaya_Katô"/>
+<ns:Actor rdf:about="http://example.org/ns/Joan_Royé"/>
 
-<ns:Actor rdf:about="http://example.org/ns/Lyne_Renée"/>
+<ns:Actor rdf:about="http://example.org/ns/Óscar_Casas"/>
 
-<ns:Actor rdf:about="http://example.org/ns/Jessica_Zandén"/>
+<ns:Actor rdf:about="http://example.org/ns/Ángel_Salazar"/>
 
-<ns:Actor rdf:about="http://example.org/ns/Karel_Dobrý"/>
+<ns:Actor rdf:about="http://example.org/ns/André_Bernot"/>
 
-<ns:Actor rdf:about="http://example.org/ns/Julio_Perillán"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Masaaki_Ôkura"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Béatrice_Macola"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Éva_Darlan"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Patricia_Guzmán"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Christian_Näthe"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Frédéric_Bonpart"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Nicky_Naudé"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Yôsuke_Akimoto"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Yaël_Belicha"/>
+<ns:Actor rdf:about="http://example.org/ns/Jürgen_Prochnow"/>
 
 <ns:Actor rdf:about="http://example.org/ns/Raúl_Gimenez"/>
 
-<ns:Actor rdf:about="http://example.org/ns/Jaume_Montané"/>
+<ns:Actor rdf:about="http://example.org/ns/Luis_Guzmán"/>
 
-<ns:Actor rdf:about="http://example.org/ns/Karin_Bjurström"/>
+<ns:Actor rdf:about="http://example.org/ns/José_Manuel_Salcedo"/>
 
-<ns:Actor rdf:about="http://example.org/ns/François_Jerosme"/>
+<ns:Actor rdf:about="http://example.org/ns/Bérangère_Bonvoisin"/>
 
-<ns:Actor rdf:about="http://example.org/ns/Zita_Görög"/>
+<ns:Actor rdf:about="http://example.org/ns/Lluís_Homar"/>
 
-<ns:Actor rdf:about="http://example.org/ns/René_Beaudin"/>
+<ns:Actor rdf:about="http://example.org/ns/Fedja_van_Huêt"/>
 
-<ns:Actor rdf:about="http://example.org/ns/André_Dussollier"/>
+<ns:Writer rdf:about="http://example.org/ns/João_Emanuel_Carneiro"/>
 
-<ns:Actor rdf:about="http://example.org/ns/Marie-Josée_Croze"/>
+<ns:Actor rdf:about="http://example.org/ns/Obba_Babatundé"/>
 
-<ns:Actor rdf:about="http://example.org/ns/Taneli_Mäkelä"/>
+<ns:Actor rdf:about="http://example.org/ns/Élodie_Navarre"/>
+
+<ns:Actor rdf:about="http://example.org/ns/José_María_Negri"/>
+
+<ns:Company rdf:about="http://example.org/ns/Möbius_Entertainment"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Minna_Haapkylä"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Daniel_Brühl"/>
+
+<ns:Director rdf:about="http://example.org/ns/Frantisek_Vlácil"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Michael_Peña"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Delphine_Sérina"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Ivan_Palúch"/>
+
+<ns:Actor rdf:about="http://example.org/ns/José_Ferrer"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Libuse_Safránková"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Maja_Schöne"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Guillermo_Díaz"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Yôsuke_Akimoto"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Seijirô_Onda"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Stéphanie_Daub-Laurent"/>
+
+<ns:Director rdf:about="http://example.org/ns/Kiké_Maíllo"/>
+
+<ns:Writer rdf:about="http://example.org/ns/André_Téchiné">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
+
+<ns:Actor rdf:about="http://example.org/ns/Masayuki_Katô"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Nicky_Naudé"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Maria_Ceiça"/>
+
+<ns:Writer rdf:about="http://example.org/ns/Jesús_Franco">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
+
+<ns:Actor rdf:about="http://example.org/ns/Michèle_Moretti"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Patrik_Ersgård"/>
+
+<ns:Director rdf:about="http://example.org/ns/Alejandro_G._Iñárritu"/>
+
+<ns:Actor rdf:about="http://example.org/ns/León_Singer"/>
 
 <ns:Actor rdf:about="http://example.org/ns/Mårten_Klingberg">
   <rdf:type rdf:resource="http://example.org/ns/Director"/>
 </ns:Actor>
 
-<ns:Actor rdf:about="http://example.org/ns/Tito_Guízar"/>
+<ns:Actor rdf:about="http://example.org/ns/Annemarie_Düringer"/>
 
-<ns:Actor rdf:about="http://example.org/ns/Arié_Elmaleh"/>
+<ns:Actor rdf:about="http://example.org/ns/Ingvar_Rydén"/>
 
-<ns:Actor rdf:about="http://example.org/ns/Marie_Rivière"/>
+<ns:Actor rdf:about="http://example.org/ns/Tim_Janßen"/>
 
-<ns:Actor rdf:about="http://example.org/ns/Carl_Möhner"/>
+<ns:Actor rdf:about="http://example.org/ns/Juliette_Gréco"/>
 
-<ns:Actor rdf:about="http://example.org/ns/Renée_Asherson"/>
+<ns:Actor rdf:about="http://example.org/ns/Serjão_Loroza"/>
 
-<ns:Actor rdf:about="http://example.org/ns/David_Bonté_Atterberg"/>
+<ns:Writer rdf:about="http://example.org/ns/Rolf_Börjlind"/>
 
-<ns:Actor rdf:about="http://example.org/ns/Karel_Belohradský"/>
+<ns:Actor rdf:about="http://example.org/ns/Brían_F._O'Byrne"/>
 
-<ns:Actor rdf:about="http://example.org/ns/Momoko_Kôchi"/>
+<ns:Actor rdf:about="http://example.org/ns/Hiroshi_Ôtake"/>
 
-<ns:Actor rdf:about="http://example.org/ns/Álvaro_Roig"/>
+<ns:Actor rdf:about="http://example.org/ns/Sergio_Hernández"/>
 
-<ns:Actor rdf:about="http://example.org/ns/Clément_Harari"/>
+<ns:Actor rdf:about="http://example.org/ns/Axel_Düberg"/>
 
-<ns:Actor rdf:about="http://example.org/ns/Antonio_García"/>
+<ns:Director rdf:about="http://example.org/ns/Jan_Sverák"/>
 
-<ns:Actor rdf:about="http://example.org/ns/Jüri_Järvet"/>
+<ns:Actor rdf:about="http://example.org/ns/Sandra_Hüller"/>
 
-<ns:Actor rdf:about="http://example.org/ns/Taijirô_Tamura"/>
+<ns:Actor rdf:about="http://example.org/ns/Andrés_Gertrúdix"/>
 
-<ns:Actor rdf:about="http://example.org/ns/Börje_Ahlstedt"/>
+<ns:Actor rdf:about="http://example.org/ns/Tarô_Arakawa"/>
 
-<ns:Actor rdf:about="http://example.org/ns/Thibault_Vinçon"/>
+<ns:Actor rdf:about="http://example.org/ns/François_Jerosme"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Björk"/>
+
+<ns:Writer rdf:about="http://example.org/ns/Gérard_Bitton">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
+
+<ns:Writer rdf:about="http://example.org/ns/Hannes_Stöhr">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
+
+<ns:Actor rdf:about="http://example.org/ns/Miroslav_Táborský"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Manny_Suárez"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Ismaïl_Amani"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Gert_Fröbe"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Grégori_Baquet"/>
 
 <ns:Actor rdf:about="http://example.org/ns/José_Vitor_Castiel"/>
 
-<ns:Actor rdf:about="http://example.org/ns/Jaime_Osorio_Gómez"/>
+<ns:Writer rdf:about="http://example.org/ns/Hans_Åke_Gabrielsson">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
-<ns:Actor rdf:about="http://example.org/ns/Jana_Bittnerová"/>
+<ns:Actor rdf:about="http://example.org/ns/Gérard_Séty"/>
 
-<ns:Actor rdf:about="http://example.org/ns/Patrícia_França"/>
+<ns:Actor rdf:about="http://example.org/ns/Paul_Faßnacht"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Emilio_Echevarría"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Pedro_Armendáriz_Jr."/>
+
+<ns:Actor rdf:about="http://example.org/ns/Joachim_Król"/>
+
+<ns:Writer rdf:about="http://example.org/ns/Mariette_Désert"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Frank_Röth"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Götz_Otto"/>
+
+<ns:Company rdf:about="http://example.org/ns/Pathé_Pictures_International"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Féodor_Atkine"/>
+
+<ns:Writer rdf:about="http://example.org/ns/Frantisek_Pavlícek"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Götz_George"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Zita_Görög"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Hélène_Surgère"/>
+
+<ns:Company rdf:about="http://example.org/ns/Légende_Films"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Magda_Vásáryová"/>
+
+<ns:Writer rdf:about="http://example.org/ns/François_Ozon">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
+
+<ns:Actor rdf:about="http://example.org/ns/Véronique_Balme"/>
+
+<ns:Writer rdf:about="http://example.org/ns/Alejandro_Amenábar">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
+
+<ns:Actor rdf:about="http://example.org/ns/Arnoldo_Foà"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Christian_Päffgen"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Sólveig_Arnarsdóttir"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Jürgen_Ruoff"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Beyoncé"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Gustav_Fröhlich"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Víctor_Manuel_Mendoza"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Maurice_Roëves"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Karel_Belohradský"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Haruhiko_Katô"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Élisabeth_Commelin"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Zdenek_Sverák">
+  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
+</ns:Actor>
+
+<ns:Actor rdf:about="http://example.org/ns/Totò"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Junya_Asô"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Marie-Josée_Croze"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Diana_Körner"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Irène_Jacob"/>
+
+<ns:Actor rdf:about="http://example.org/ns/André_Dussollier"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Börje_Ahlstedt"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Daniel_Martínez"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Sôsuke_Takaoka"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Ernesto_Gómez_Cruz"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Ellenie_Salvo_González"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Valérie_Donzelli"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Burghart_Klaußner"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Måns_Westfelt"/>
+
+<ns:Director rdf:about="http://example.org/ns/Gérard_Krawczyk"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Gérard_Bonn"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Veit_Stübner"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Bodo_Österling"/>
+
+<ns:Writer rdf:about="http://example.org/ns/Tristan_Carné"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Isaach_De_Bankolé"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Günther_Kaufmann"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Karel_Hermánek"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Léa_Bosco"/>
 
 <ns:Actor rdf:about="http://example.org/ns/Petra_Spalková"/>
 
-<ns:Actor rdf:about="http://example.org/ns/Tchéky_Karyo"/>
+<ns:Actor rdf:about="http://example.org/ns/Agneta_Ulfsäter-Troell"/>
 
-<ns:Actor rdf:about="http://example.org/ns/Janaína_Kremer_Motta"/>
+<ns:Writer rdf:about="http://example.org/ns/Emmanuèle_Bernheim"/>
 
-<ns:Actor rdf:about="http://example.org/ns/Juliane_Köhler"/>
+<ns:Actor rdf:about="http://example.org/ns/Mylène_Demongeot"/>
 
-<ns:Actor rdf:about="http://example.org/ns/Shelley_Kästner"/>
+<ns:Actor rdf:about="http://example.org/ns/Jordi_Mollà"/>
 
-<ns:Actor rdf:about="http://example.org/ns/Luis_Alarcón"/>
+<ns:Actor rdf:about="http://example.org/ns/Daniela_Preuß"/>
 
-<ns:Actor rdf:about="http://example.org/ns/Kyôko_Koizumi"/>
+<ns:Actor rdf:about="http://example.org/ns/Mireille_Mossé"/>
 
-<ns:Actor rdf:about="http://example.org/ns/Belén_Rueda"/>
+<ns:Actor rdf:about="http://example.org/ns/René_Beaudin"/>
 
-<ns:Actor rdf:about="http://example.org/ns/Dieter_Jäger"/>
+<ns:Actor rdf:about="http://example.org/ns/Rüdiger_Vogler"/>
 
-<ns:Actor rdf:about="http://example.org/ns/Shannon_Royé"/>
+<ns:Actor rdf:about="http://example.org/ns/Milena_Dreißig"/>
 
-<ns:Actor rdf:about="http://example.org/ns/Michael_Peña"/>
+<ns:Actor rdf:about="http://example.org/ns/Patrícia_Guerreiro"/>
 
-<ns:Actor rdf:about="http://example.org/ns/Seijirô_Onda"/>
+<ns:Actor rdf:about="http://example.org/ns/Pelle_Bang_Sørensen"/>
 
-<ns:Actor rdf:about="http://example.org/ns/Patrik_Ersgård"/>
+<ns:Actor rdf:about="http://example.org/ns/Michaël_Abiteboul"/>
 
-<ns:Actor rdf:about="http://example.org/ns/Maria_Köstlinger"/>
+<ns:Actor rdf:about="http://example.org/ns/Jordi_Díaz"/>
 
 <ns:Actor rdf:about="http://example.org/ns/Jeroen_Krabbé">
   <rdf:type rdf:resource="http://example.org/ns/Director"/>
 </ns:Actor>
 
-<ns:Actor rdf:about="http://example.org/ns/Valérie_Kéruzoré"/>
+<ns:Actor rdf:about="http://example.org/ns/Per_Grundén"/>
 
-<ns:Actor rdf:about="http://example.org/ns/Jürgen_Prochnow"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Jan_Vlasák"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Kôji_Yakusho"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Sôsuke_Takaoka"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Magda_Vásáryová"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Kenpachirô_Satsuma"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Hiroshi_Ôtake"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Hanspeter_Müller"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Matti_Pellonpää"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Carlos_Andrés_Gómez"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Hans_Wyprächtiger"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Elizabeth_Peña"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Lluís_Homar"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Jessica_Paré"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Beyoncé"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Daniël_Boissevain"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Balázs_Koós"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Mylène_Demongeot"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Henrik_Lundström"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Patricia_Gélin"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Paula_Garcés"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Joel_Östlund"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Jordi_Díaz"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Élodie_Navarre"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Ismaïl_Amani"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Joan_Royé"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Vicco_von_Bülow">
-  <rdf:type rdf:resource="http://example.org/ns/Director"/>
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Actor>
-
-<ns:Actor rdf:about="http://example.org/ns/Oscar_Martínez"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Björn_Andersson"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Kôichi_Kitamura"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Guillermo_Díaz"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Junya_Asô"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Josep_Maria_Domènech"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Rubén_Blades"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Frantisek_Velecký"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Ivan_Palúch"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Julia_Jäger"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Michèle_Moretti"/>
-
-<ns:Actor rdf:about="http://example.org/ns/José_Manuel_Salcedo"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Tarja_Keinänen"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Cüneyt_Yalaz"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Sergio_Hernández"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Roger_Príncep"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Masayuki_Katô"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Patrick_Préjean"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Léo_Boyeneh_Kote"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Gérard_Séty"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Chloë_Sevigny"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Kôen_Okumura"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Rosa_María_Bianchi"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Gérard_Croce"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Frank_Röth"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Kokuten_Kôdô"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Irène_Jacob"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Phillip_José_Steinfatt"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Jürgen_Tarrach"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Daniela_Preuß"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Brían_F._O'Byrne"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Marie-Françoise_Theodore"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Catherine_Allégret"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Maurício_Gonçalves"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Tarô_Yamamoto"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Yûsuke_Santamaria"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Gael_García_Bernal"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Ricardo_López"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Ángel_Salazar"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Ernesto_Gómez_Cruz"/>
-
-<ns:Actor rdf:about="http://example.org/ns/María_Miguel"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Mario_Iván_Martínez"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Sofia_Bénard_da_Costa"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Álvaro_Guerrero"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Günther_Maria_Halmer"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Nicolas_Marié"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Anouk_Aimée"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Michaël_Abiteboul"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Marja_Packalén"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Dunia_Saldívar"/>
+<ns:Actor rdf:about="http://example.org/ns/Petr_Jákl"/>
 
 <ns:Actor rdf:about="http://example.org/ns/Gérard_Depardieu"/>
 
-<ns:Actor rdf:about="http://example.org/ns/Fedja_van_Huêt"/>
+<ns:Actor rdf:about="http://example.org/ns/Joachim_Bißmeier"/>
 
-<ns:Actor rdf:about="http://example.org/ns/Sólveig_Arnarsdóttir"/>
+<ns:Actor rdf:about="http://example.org/ns/Chloë_Sevigny"/>
 
-<ns:Actor rdf:about="http://example.org/ns/Charles_Albert_Patiño"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Héctor_Tomás"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Eriko_Satô"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Someshô_Matsumoto"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Václav_Sloup"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Liv_Mjönes"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Patrícia_Guerreiro"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Sabine_Azéma"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Yûto_Kawase"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Tim_Janßen"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Théo_Cohan"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Totò"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Gösta_Bredefeldt"/>
+<ns:Actor rdf:about="http://example.org/ns/Carl_Möhner"/>
 
 <ns:Actor rdf:about="http://example.org/ns/Magali_Noël"/>
 
-<ns:Actor rdf:about="http://example.org/ns/Ryô_Kase"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Malin_Crépin"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Tôru_Tezuka"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Pedro_Ayres_Magalhães"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Yûki_Kudô"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Isaach_De_Bankolé"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Manny_Suárez"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Aurélie_Meriel"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Emmanuelle_Béart"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Yû_Koyanagi"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Pelle_Bang_Sørensen"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Doña_Croll"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Agneta_Ulfsäter-Troell"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Maurice_Roëves"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Ciarán_Hinds"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Léa_Bosco"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Éric_Berger"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Marc_Barbé"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Miroslav_Táborský"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Hans-Günter_Martens"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Björn_Gustafson"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Maja_Schöne"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Marie-Gaëlle_Cals"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Libuse_Safránková"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Diana_Körner"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Ingvar_Rydén"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Élisabeth_Commelin"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Hélène_Surgère"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Serjão_Loroza"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Jürgen_Ruoff"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Alena_Pavlíková"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Kentarô_Kaji"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Manel_Barceló"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Féodor_Atkine"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Víctor_Manuel_Mendoza"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Geórgia_Reck"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Kei_Satô"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Rüdiger_Vogler"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Michael_Paré"/>
+<ns:Actor rdf:about="http://example.org/ns/Jörg_Schüttauf"/>
 
 <ns:Actor rdf:about="http://example.org/ns/Carina_Söderman"/>
 
-<ns:Actor rdf:about="http://example.org/ns/Maria_Ceiça"/>
+<ns:Actor rdf:about="http://example.org/ns/Christian_Näthe"/>
 
-<ns:Actor rdf:about="http://example.org/ns/Paul_Faßnacht"/>
+<ns:Actor rdf:about="http://example.org/ns/Yaël_Belicha"/>
 
-<ns:Actor rdf:about="http://example.org/ns/André_Dupon"/>
+<ns:Actor rdf:about="http://example.org/ns/Dunia_Saldívar"/>
 
-<ns:Actor rdf:about="http://example.org/ns/Joséphine_de_La_Baume"/>
+<ns:Actor rdf:about="http://example.org/ns/Tom_Zé"/>
 
-<ns:Actor rdf:about="http://example.org/ns/Éric_Naggar"/>
+<ns:Actor rdf:about="http://example.org/ns/Hinnerk_Schönemann"/>
 
-<ns:Actor rdf:about="http://example.org/ns/Carmen_Rüter"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Rodrigo_Leão"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Jhon_Álex_Toro"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Jörg_Schüttauf"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Idil_Üner"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Stefanie_Mühlhan"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Delphine_Sérina"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Joséphine_de_Meaux"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Daniel_Martínez"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Rodrigo_Sánchez_Borhorquez"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Daphné_Baiwir"/>
-
-<ns:Actor rdf:about="http://example.org/ns/José_Sefami"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Zezé_Motta"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Minna_Haapkylä"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Burghart_Klaußner"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Haruhiko_Katô"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Michèle_Garcia"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Stella_Zázvorková"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Elina_Löwensohn"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Raymond_Bussières"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Kenjirô_Ishimaru"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Björk"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Götz_George"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Daisy_Tormé"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Eva_Löbau"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Grégori_Baquet"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Tina_Hedström"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Jordi_Mollà"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Siân_Phillips"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Stéphanie_Daub-Laurent"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Lubomír_Bukový"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Júlio_Andrade"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Lúcio_Andrey"/>
-
-<ns:Actor rdf:about="http://example.org/ns/Lobão"/>
-
-<ns:Company rdf:about="http://example.org/ns/Pathé_Consortium_Cinéma"/>
-
-<ns:Company rdf:about="http://example.org/ns/Film_i_Väst"/>
-
-<ns:Company rdf:about="http://example.org/ns/Filmové_studio_Barrandov"/>
-
-<ns:Company rdf:about="http://example.org/ns/Produire_à_Paris"/>
-
-<ns:Company rdf:about="http://example.org/ns/Fidélité_Productions"/>
-
-<ns:Company rdf:about="http://example.org/ns/Cinémaginaire_Inc."/>
-
-<ns:Company rdf:about="http://example.org/ns/Canal+_España"/>
+<ns:Actor rdf:about="http://example.org/ns/Nela_Boudová"/>
 
 <ns:Company rdf:about="http://example.org/ns/Cinéa"/>
 
-<ns:Company rdf:about="http://example.org/ns/Möbius_Entertainment"/>
-
-<ns:Company rdf:about="http://example.org/ns/Les_Films_de_la_Boétie"/>
-
-<ns:Company rdf:about="http://example.org/ns/Comme_des_Cinémas"/>
-
-<ns:Company rdf:about="http://example.org/ns/Bórd_Scannán_na_hÉireann"/>
-
-<ns:Company rdf:about="http://example.org/ns/Pathé_Entertainment"/>
-
-<ns:Company rdf:about="http://example.org/ns/Pathé_Pictures_International"/>
-
-<ns:Company rdf:about="http://example.org/ns/Légende_Films"/>
+<ns:Actor rdf:about="http://example.org/ns/Kôichi_Kitamura"/>
 
 <ns:Director rdf:about="http://example.org/ns/Leander_Haußmann"/>
 
-<ns:Director rdf:about="http://example.org/ns/Gérard_Krawczyk"/>
+<ns:Actor rdf:about="http://example.org/ns/Götz_Burger"/>
 
-<ns:Director rdf:about="http://example.org/ns/Jean-Stéphane_Sauvaire">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Actor rdf:about="http://example.org/ns/Sepé_Tiaraju"/>
 
-<ns:Director rdf:about="http://example.org/ns/Joakim_Ersgård"/>
+<ns:Writer rdf:about="http://example.org/ns/Christian_Zübert">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
 
-<ns:Director rdf:about="http://example.org/ns/Mikhaël_Hers">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
+<ns:Actor rdf:about="http://example.org/ns/Günther_Maria_Halmer"/>
 
-<ns:Director rdf:about="http://example.org/ns/François_Ozon">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
-
-<ns:Director rdf:about="http://example.org/ns/Joachim_Rønning"/>
-
-<ns:Director rdf:about="http://example.org/ns/Gérard_Bitton">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
-
-<ns:Director rdf:about="http://example.org/ns/Frantisek_Vlácil"/>
-
-<ns:Director rdf:about="http://example.org/ns/Jan_Sverák"/>
-
-<ns:Director rdf:about="http://example.org/ns/Frédéric_Auburtin"/>
-
-<ns:Director rdf:about="http://example.org/ns/Ishirô_Honda">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
-
-<ns:Director rdf:about="http://example.org/ns/Kaneto_Shindô">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
-
-<ns:Director rdf:about="http://example.org/ns/Christian_Zübert">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
-
-<ns:Director rdf:about="http://example.org/ns/Aki_Olavi_Kaurismäki"/>
-
-<ns:Director rdf:about="http://example.org/ns/Alejandro_Amenábar">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
-
-<ns:Director rdf:about="http://example.org/ns/Kiké_Maíllo"/>
-
-<ns:Director rdf:about="http://example.org/ns/André_Téchiné">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
-
-<ns:Director rdf:about="http://example.org/ns/Hans_Åke_Gabrielsson">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
-
-<ns:Director rdf:about="http://example.org/ns/Hannes_Stöhr">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
-
-<ns:Director rdf:about="http://example.org/ns/Jan_Mikael_Håfström"/>
-
-<ns:Director rdf:about="http://example.org/ns/Kôji_Shiraishi">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
-
-<ns:Director rdf:about="http://example.org/ns/Étienne_Chatiliez">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
-
-<ns:Director rdf:about="http://example.org/ns/Alejandro_G._Iñárritu"/>
-
-<ns:Director rdf:about="http://example.org/ns/Jesús_Franco">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
-
-<ns:Director rdf:about="http://example.org/ns/Katsuhiro_Ôtomo">
-  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
-</ns:Director>
-
-<ns:Director rdf:about="http://example.org/ns/Ryûhei_Kitamura"/>
-
-<ns:Director rdf:about="http://example.org/ns/Daniel_Lind_Lagerlöf"/>
-
-<ns:Writer rdf:about="http://example.org/ns/Jirí_Gold"/>
-
-<ns:Writer rdf:about="http://example.org/ns/Mariette_Désert"/>
-
-<ns:Writer rdf:about="http://example.org/ns/Tristan_Carné"/>
-
-<ns:Writer rdf:about="http://example.org/ns/Gerardo_Cáceres"/>
-
-<ns:Writer rdf:about="http://example.org/ns/Otfried_Preußler"/>
-
-<ns:Writer rdf:about="http://example.org/ns/Kôji_Suzuki"/>
+<ns:Actor rdf:about="http://example.org/ns/Lourdes_Echevarría"/>
 
 <ns:Writer rdf:about="http://example.org/ns/Brötchen"/>
 
-<ns:Writer rdf:about="http://example.org/ns/Jean-Claude_Carrière"/>
+<ns:Actor rdf:about="http://example.org/ns/Zezé_Motta"/>
 
-<ns:Writer rdf:about="http://example.org/ns/Pea_Fröhlich"/>
+<ns:Actor rdf:about="http://example.org/ns/Elina_Löwensohn"/>
 
-<ns:Writer rdf:about="http://example.org/ns/Emmanuèle_Bernheim"/>
+<ns:Actor rdf:about="http://example.org/ns/Jûkichi_Uno"/>
 
-<ns:Writer rdf:about="http://example.org/ns/Peter_Märthesheimer"/>
+<ns:Actor rdf:about="http://example.org/ns/Taijirô_Tamura"/>
 
-<ns:Writer rdf:about="http://example.org/ns/Rolf_Börjlind"/>
+<ns:Actor rdf:about="http://example.org/ns/Tchéky_Karyo"/>
 
-<ns:Writer rdf:about="http://example.org/ns/Roel_Reiné"/>
+<ns:Director rdf:about="http://example.org/ns/Ryûhei_Kitamura"/>
 
-<ns:Writer rdf:about="http://example.org/ns/Aki_Kaurismäki"/>
+<ns:Actor rdf:about="http://example.org/ns/Fyr_Thorvald_Strömberg"/>
 
-<ns:Writer rdf:about="http://example.org/ns/João_Emanuel_Carneiro"/>
+<ns:Actor rdf:about="http://example.org/ns/Ryôko_Hirosue"/>
 
-<ns:Writer rdf:about="http://example.org/ns/Gérard_Brach"/>
+<ns:Actor rdf:about="http://example.org/ns/Jhon_Álex_Toro"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Masaya_Katô"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Michael_Bublé"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Anouk_Aimée"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Hélène_Duc"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Henrik_Lundström"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Masaaki_Ôkura"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Aurélie_Boquien"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Rubén_Blades"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Yû_Koyanagi"/>
 
 <ns:Writer rdf:about="http://example.org/ns/Sergio_G._Sánchez"/>
 
-<ns:Writer rdf:about="http://example.org/ns/Frantisek_Pavlícek"/>
+<ns:Writer rdf:about="http://example.org/ns/Gerardo_Cáceres"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Patrícia_França"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Marco_Pérez"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Julia_Jäger"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Taneli_Mäkelä"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Daphné_Baiwir"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Malin_Crépin"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Hitomi_Satô"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Julio_Perillán"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Júlio_Andrade"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Carmen_Rüter"/>
+
+<ns:Writer rdf:about="http://example.org/ns/Izô_Hashimoto"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Béatrice_Macola"/>
+
+<ns:Actor rdf:about="http://example.org/ns/François_Maistre"/>
+
+<ns:Company rdf:about="http://example.org/ns/Pathé_Entertainment"/>
+
+<ns:Actor rdf:about="http://example.org/ns/José_Sefami"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Kokuten_Kôdô"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Esmée_de_la_Bretonière"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Kyôko_Inoue"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Daisy_Tormé"/>
 
 <ns:Writer rdf:about="http://example.org/ns/Françoise_Sagan"/>
 
-<ns:Writer rdf:about="http://example.org/ns/Malin_Lagerlöf"/>
+<ns:Actor rdf:about="http://example.org/ns/Román_Ariznavarreta"/>
 
-<ns:Writer rdf:about="http://example.org/ns/Akif_Pirinçci"/>
+<ns:Actor rdf:about="http://example.org/ns/Michèle_Garcia"/>
 
-<ns:Writer rdf:about="http://example.org/ns/Izô_Hashimoto"/>
+<ns:Actor rdf:about="http://example.org/ns/Someshô_Matsumoto"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Josep_Maria_Domènech"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Maria_Köstlinger"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Kanzô_Uni"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Ciarán_Hinds"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Ondrej_Vetchý"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Maurício_Gonçalves"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Pedro_Ayres_Magalhães"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Kôen_Okumura"/>
+
+<ns:Writer rdf:about="http://example.org/ns/Mikhaël_Hers">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
+
+<ns:Actor rdf:about="http://example.org/ns/Daniël_Boissevain"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Jürgen_Tarrach"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Jessica_Paré"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Lúcio_Andrey"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Joséphine_de_Meaux"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Sándor_Bolla"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Tarô_Yamamoto"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Lobão"/>
+
+<ns:Writer rdf:about="http://example.org/ns/Kaneto_Shindô">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
+
+<ns:Actor rdf:about="http://example.org/ns/Jüri_Järvet"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Phillip_José_Steinfatt"/>
+
+<ns:Director rdf:about="http://example.org/ns/Aki_Olavi_Kaurismäki"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Cüneyt_Yalaz"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Hardy_Krüger"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Adem_Yüksel"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Ryô_Kase"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Eva_Löbau"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Vicco_von_Bülow">
+  <rdf:type rdf:resource="http://example.org/ns/Writer"/>
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Actor>
+
+<ns:Actor rdf:about="http://example.org/ns/Marc_Barbé"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Hanspeter_Müller"/>
+
+<ns:Director rdf:about="http://example.org/ns/Daniel_Lind_Lagerlöf"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Gérard_Rudolf"/>
+
+<ns:Director rdf:about="http://example.org/ns/Frédéric_Auburtin"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Yûki_Kudô"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Jérôme_Kircher"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Jan_Vlasák"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Gérard_Lanvin"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Stéphane_Debac"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Eriko_Satô"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Laurent_Grévill"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Jean_Thévenin"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Marie_Rivière"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Jean-François_Balmer"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Sofia_Bénard_da_Costa"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Sabine_Azéma"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Álvaro_Guerrero"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Manel_Barceló"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Elizabeth_Peña"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Óscar_Lara"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Slávka_Budínová"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Zaide_Silvia_Gutiérrez"/>
+
+<ns:Actor rdf:about="http://example.org/ns/André_Dupon"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Janaína_Kremer_Motta"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Shôsuke_Tanihara"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Marie-Françoise_Theodore"/>
+
+<ns:Company rdf:about="http://example.org/ns/Film_i_Väst"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Matti_Pellonpää"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Paula_Garcés"/>
+
+<ns:Writer rdf:about="http://example.org/ns/Kôji_Shiraishi">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
+
+<ns:Actor rdf:about="http://example.org/ns/Makoto_Ôtake"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Idil_Üner"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Alena_Pavlíková"/>
+
+<ns:Actor rdf:about="http://example.org/ns/René_Pribil"/>
+
+<ns:Company rdf:about="http://example.org/ns/Canal+_España"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Élodie_Bouchez"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Liv_Mjönes"/>
+
+<ns:Director rdf:about="http://example.org/ns/Joakim_Ersgård"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Tesshô_Genda"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Rita_Molè"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Tarja_Keinänen"/>
+
+<ns:Company rdf:about="http://example.org/ns/Pathé_Consortium_Cinéma"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Björn_Gustafsson"/>
+
+<ns:Actor rdf:about="http://example.org/ns/André_Rossouw"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Michael_Paré"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Raymond_Bussières"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Fidel_Béchara"/>
+
+<ns:Writer rdf:about="http://example.org/ns/Gérard_Brach"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Stefanie_Mühlhan"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Magnus_Mårtenson"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Luis_Alarcón"/>
+
+<ns:Writer rdf:about="http://example.org/ns/Otfried_Preußler"/>
+
+<ns:Writer rdf:about="http://example.org/ns/Katsuhiro_Ôtomo">
+  <rdf:type rdf:resource="http://example.org/ns/Director"/>
+</ns:Writer>
+
+<ns:Actor rdf:about="http://example.org/ns/Carmen_López"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Kyôko_Koizumi"/>
+
+<ns:Actor rdf:about="http://example.org/ns/María_Miguel"/>
+
+<ns:Actor rdf:about="http://example.org/ns/André_Morell"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Frédéric_Bonpart"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Jaime_Osorio_Gómez"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Lars_Göran_Persson"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Aurore_Clément"/>
+
+<ns:Actor rdf:about="http://example.org/ns/Gael_García_Bernal"/>
 
 
 </rdf:RDF>
