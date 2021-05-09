@@ -84,11 +84,6 @@
   <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
 </owl:DatatypeProperty>
 
-<owl:DatatypeProperty rdf:about="http://example.org/props/avg_vote">
-  <rdfs:domain rdf:resource="http://example.org/ns/Movie"/>
-  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
-</owl:DatatypeProperty>
-
 <owl:DatatypeProperty rdf:about="http://example.org/props/usa_gross_income">
   <rdfs:domain rdf:resource="http://example.org/ns/Movie"/>
   <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
