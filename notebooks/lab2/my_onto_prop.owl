@@ -19,6 +19,11 @@
   <rdfs:range rdf:resource="http://example.org/ns/Language"/>
 </owl:ObjectProperty>
 
+<owl:ObjectProperty rdf:about="http://example.org/props/country">
+  <rdfs:domain rdf:resource="http://example.org/ns/Movie"/>
+  <rdfs:range rdf:resource="http://example.org/ns/Country"/>
+</owl:ObjectProperty>
+
 <owl:ObjectProperty rdf:about="http://example.org/props/genre">
   <rdfs:domain rdf:resource="http://example.org/ns/Movie"/>
   <rdfs:range rdf:resource="http://example.org/ns/Genre"/>
