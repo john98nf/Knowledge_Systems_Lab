@@ -3,12 +3,12 @@
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
          xmlns:owl="http://www.w3.org/2002/07/owl#"
-         xml:base="owl_graph_no_genres.nt"
-         xmlns="owl_graph_no_genres.nt#"
+         xml:base="owl_graph_modified.nt"
+         xmlns="owl_graph_modified.nt#"
          xmlns:ns="http://example.org/ns/"
          xmlns:prop="http://example.org/props/">
 
-<owl:Ontology rdf:about="owl_graph_no_genres.nt"/>
+<owl:Ontology rdf:about="owl_graph_modified.nt"/>
 
 <owl:ObjectProperty rdf:about="http://example.org/props/hasActor">
   <rdfs:domain rdf:resource="http://example.org/ns/Movie"/>
