@@ -644,6 +644,13 @@
 	<rdfs:subClassOf rdf:resource="http://example.org/ns/Award"/>
 </rdf:Description>
 <!--  -->
+<!-- http://example.org/ns/HighBudgetMovie -->
+
+<rdf:Description rdf:about="http://example.org/ns/HighBudgetMovie">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+	<rdfs:subClassOf rdf:resource="http://example.org/ns/Movie"/>
+</rdf:Description>
+<!--  -->
 <!-- http://example.org/ns/HistoryMovie -->
 
 <rdf:Description rdf:about="http://example.org/ns/HistoryMovie">
@@ -674,6 +681,13 @@
 
 <rdf:Description rdf:about="http://example.org/ns/Location">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+<!--  -->
+<!-- http://example.org/ns/LowBudgetMovie -->
+
+<rdf:Description rdf:about="http://example.org/ns/LowBudgetMovie">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+	<rdfs:subClassOf rdf:resource="http://example.org/ns/Movie"/>
 </rdf:Description>
 <!--  -->
 <!-- http://example.org/ns/Movie -->
@@ -80171,155 +80185,215 @@
 <!--  -->
 
 <rdf:Description rdf:nodeID="genid3">
-	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
-	<owl:members rdf:nodeID="genid8"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+	<owl:onProperty rdf:resource="http://example.org/props/hasBudget"/>
+	<owl:someValuesFrom rdf:nodeID="genid4"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid8">
-	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
-	<rdf:first rdf:resource="http://example.org/ns/AcademyAward"/>
-	<rdf:rest rdf:nodeID="genid7"/>
-</rdf:Description>
-
-<rdf:Description rdf:nodeID="genid7">
-	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
-	<rdf:first rdf:resource="http://example.org/ns/BaftaAward"/>
-	<rdf:rest rdf:nodeID="genid6"/>
-</rdf:Description>
-
-<rdf:Description rdf:nodeID="genid6">
-	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
-	<rdf:first rdf:resource="http://example.org/ns/GoldenGlobesAward"/>
-	<rdf:rest rdf:nodeID="genid5"/>
+<rdf:Description rdf:nodeID="genid4">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+	<owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+	<owl:withRestrictions rdf:nodeID="genid5"/>
 </rdf:Description>
 
 <rdf:Description rdf:nodeID="genid5">
 	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
-	<rdf:first rdf:resource="http://example.org/ns/GoldenRaspberryAward"/>
-	<rdf:rest rdf:nodeID="genid4"/>
+	<rdf:first rdf:nodeID="genid6"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid4">
+<rdf:Description rdf:nodeID="genid6">
+	<xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#int">100000000</xsd:minInclusive>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid5">
+	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid3">
+	<rdfs:subClassOf rdf:resource="http://example.org/ns/HighBudgetMovie"/>
+</rdf:Description>
+<!--  -->
+
+<rdf:Description rdf:nodeID="genid7">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+	<owl:onProperty rdf:resource="http://example.org/props/hasBudget"/>
+	<owl:someValuesFrom rdf:nodeID="genid8"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid8">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+	<owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+	<owl:withRestrictions rdf:nodeID="genid9"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid9">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:nodeID="genid10"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid10">
+	<xsd:maxInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2000000</xsd:maxInclusive>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid9">
+	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid7">
+	<rdfs:subClassOf rdf:resource="http://example.org/ns/LowBudgetMovie"/>
+</rdf:Description>
+<!--  -->
+
+<rdf:Description rdf:nodeID="genid11">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+	<owl:members rdf:nodeID="genid16"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid16">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:resource="http://example.org/ns/AcademyAward"/>
+	<rdf:rest rdf:nodeID="genid15"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid15">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:resource="http://example.org/ns/BaftaAward"/>
+	<rdf:rest rdf:nodeID="genid14"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid14">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:resource="http://example.org/ns/GoldenGlobesAward"/>
+	<rdf:rest rdf:nodeID="genid13"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid13">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:resource="http://example.org/ns/GoldenRaspberryAward"/>
+	<rdf:rest rdf:nodeID="genid12"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid12">
 	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
 	<rdf:first rdf:resource="http://example.org/ns/PalmeD'OrAward"/>
 	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
 </rdf:Description>
 <!--  -->
 
-<rdf:Description rdf:nodeID="genid9">
+<rdf:Description rdf:nodeID="genid17">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
-	<owl:members rdf:nodeID="genid15"/>
+	<owl:members rdf:nodeID="genid23"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid15">
+<rdf:Description rdf:nodeID="genid23">
 	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
 	<rdf:first rdf:resource="http://example.org/ns/ArtisticCreation"/>
-	<rdf:rest rdf:nodeID="genid14"/>
+	<rdf:rest rdf:nodeID="genid22"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid14">
+<rdf:Description rdf:nodeID="genid22">
 	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
 	<rdf:first rdf:resource="http://example.org/ns/Award"/>
-	<rdf:rest rdf:nodeID="genid13"/>
+	<rdf:rest rdf:nodeID="genid21"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid13">
+<rdf:Description rdf:nodeID="genid21">
 	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
 	<rdf:first rdf:resource="http://example.org/ns/Language"/>
-	<rdf:rest rdf:nodeID="genid12"/>
+	<rdf:rest rdf:nodeID="genid20"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid12">
+<rdf:Description rdf:nodeID="genid20">
 	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
 	<rdf:first rdf:resource="http://example.org/ns/LegalEntity"/>
-	<rdf:rest rdf:nodeID="genid11"/>
+	<rdf:rest rdf:nodeID="genid19"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid11">
+<rdf:Description rdf:nodeID="genid19">
 	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
 	<rdf:first rdf:resource="http://example.org/ns/Location"/>
-	<rdf:rest rdf:nodeID="genid10"/>
+	<rdf:rest rdf:nodeID="genid18"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid10">
+<rdf:Description rdf:nodeID="genid18">
 	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
 	<rdf:first rdf:resource="http://example.org/ns/Person"/>
 	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
 </rdf:Description>
 <!--  -->
 
-<rdf:Description rdf:nodeID="genid16">
+<rdf:Description rdf:nodeID="genid24">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
-	<owl:members rdf:nodeID="genid20"/>
+	<owl:members rdf:nodeID="genid28"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid20">
+<rdf:Description rdf:nodeID="genid28">
 	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
 	<rdf:first rdf:resource="http://example.org/ns/Book"/>
-	<rdf:rest rdf:nodeID="genid19"/>
+	<rdf:rest rdf:nodeID="genid27"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid19">
+<rdf:Description rdf:nodeID="genid27">
 	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
 	<rdf:first rdf:resource="http://example.org/ns/ComicBookSeries"/>
-	<rdf:rest rdf:nodeID="genid18"/>
+	<rdf:rest rdf:nodeID="genid26"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid18">
+<rdf:Description rdf:nodeID="genid26">
 	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
 	<rdf:first rdf:resource="http://example.org/ns/Movie"/>
-	<rdf:rest rdf:nodeID="genid17"/>
+	<rdf:rest rdf:nodeID="genid25"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid17">
+<rdf:Description rdf:nodeID="genid25">
 	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
 	<rdf:first rdf:resource="http://example.org/ns/MovieUniverse"/>
 	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
 </rdf:Description>
 <!--  -->
 
-<rdf:Description rdf:nodeID="genid21">
+<rdf:Description rdf:nodeID="genid29">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointProperties"/>
-	<owl:members rdf:nodeID="genid24"/>
+	<owl:members rdf:nodeID="genid32"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid24">
+<rdf:Description rdf:nodeID="genid32">
 	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
 	<rdf:first rdf:resource="http://example.org/props/hasPrequel"/>
-	<rdf:rest rdf:nodeID="genid23"/>
+	<rdf:rest rdf:nodeID="genid31"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid23">
+<rdf:Description rdf:nodeID="genid31">
 	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
 	<rdf:first rdf:resource="http://example.org/props/hasRemake"/>
-	<rdf:rest rdf:nodeID="genid22"/>
+	<rdf:rest rdf:nodeID="genid30"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid22">
+<rdf:Description rdf:nodeID="genid30">
 	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
 	<rdf:first rdf:resource="http://example.org/props/hasSequel"/>
 	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
 </rdf:Description>
 <!--  -->
 
-<rdf:Description rdf:nodeID="genid25">
+<rdf:Description rdf:nodeID="genid33">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointProperties"/>
-	<owl:members rdf:nodeID="genid28"/>
+	<owl:members rdf:nodeID="genid36"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid28">
+<rdf:Description rdf:nodeID="genid36">
 	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
 	<rdf:first rdf:resource="http://example.org/props/isPrequelOf"/>
-	<rdf:rest rdf:nodeID="genid27"/>
+	<rdf:rest rdf:nodeID="genid35"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid27">
+<rdf:Description rdf:nodeID="genid35">
 	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
 	<rdf:first rdf:resource="http://example.org/props/isRemakeOf"/>
-	<rdf:rest rdf:nodeID="genid26"/>
+	<rdf:rest rdf:nodeID="genid34"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid26">
+<rdf:Description rdf:nodeID="genid34">
 	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
 	<rdf:first rdf:resource="http://example.org/props/isSequelOf"/>
 	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
