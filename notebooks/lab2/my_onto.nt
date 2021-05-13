@@ -12916,7 +12916,7 @@
 <http://example.org/ns/tt0112817> <http://example.org/props/avg_vote> "7.6"^^<http://www.w3.org/2001/XMLSchema#float> .
 <http://example.org/ns/tt0268695> <http://example.org/props/votes> "117239"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://example.org/ns/tt0097883> <http://example.org/props/title> "Millennium" .
-<http://example.org/ns/tt0448134> <http://example.org/props/budget> "26000000"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/ns/tt0448134> <http://example.org/props/budget> "36660000"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://example.org/ns/tt0395169> <http://example.org/props/description> " a hotel manager" .
 <http://example.org/ns/tt0391198> <http://example.org/props/worldwide_gross_income> "187281115"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://example.org/ns/tt0167190> <http://example.org/props/reviews_from_users> "652"^^<http://www.w3.org/2001/XMLSchema#integer> .
@@ -12950,7 +12950,7 @@
 <http://example.org/ns/tt0274155> <http://example.org/props/title> "Tanguy" .
 <http://example.org/ns/tt0047034> <http://example.org/props/metascore> "78"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://example.org/ns/tt0181689> <http://example.org/props/usa_gross_income> "132072926"^^<http://www.w3.org/2001/XMLSchema#integer> .
-<http://example.org/ns/tt0396746> <http://example.org/props/budget> "40000"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/ns/tt0396746> <http://example.org/props/budget> "48400"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://example.org/ns/tt0134847> <http://example.org/props/votes> "222655"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://example.org/ns/tt0107290> <http://example.org/props/worldwide_gross_income> "1033758854"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://example.org/ns/tt0069945> <http://example.org/props/description> "In the far reaches of space" .
@@ -13110,7 +13110,7 @@
 <http://example.org/ns/tt0075148> <http://example.org/props/duration> "120"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://example.org/ns/tt0122459> <http://example.org/props/reviews_from_users> "292"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://example.org/ns/tt0322545> <http://example.org/props/duration> "105"^^<http://www.w3.org/2001/XMLSchema#integer> .
-<http://example.org/ns/tt0118588> <http://example.org/props/budget> "2400000"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/ns/tt0118588> <http://example.org/props/budget> "1320000"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://example.org/ns/tt0340855> <http://example.org/props/usa_gross_income> "34469210"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://example.org/ns/tt0094667> <http://example.org/props/votes> "3633"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://example.org/ns/tt0159603> <http://example.org/props/duration> "105"^^<http://www.w3.org/2001/XMLSchema#integer> .
@@ -13141,7 +13141,7 @@
 <http://example.org/ns/tt0424345> <http://example.org/props/reviews_from_users> "480"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://example.org/ns/tt0425624> <http://example.org/props/year> "2004"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://example.org/ns/tt0077318> <http://example.org/props/description> " and goes on a killing spree and finds himself on the run in the aftermath." .
-<http://example.org/ns/tt0082671> <http://example.org/props/budget> "3500000"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/ns/tt0082671> <http://example.org/props/budget> "2171176"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://example.org/ns/tt0438488> <http://example.org/props/avg_vote> "6.5"^^<http://www.w3.org/2001/XMLSchema#float> .
 <http://example.org/ns/tt0472582> <http://example.org/props/reviews_from_critics> "42"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://example.org/ns/tt0386038> <http://example.org/props/avg_vote> "7.5"^^<http://www.w3.org/2001/XMLSchema#float> .
@@ -13152,7 +13152,7 @@
 <http://example.org/ns/tt0245712> <http://example.org/props/avg_vote> "8.1"^^<http://www.w3.org/2001/XMLSchema#float> .
 <http://example.org/ns/tt0109707> <http://example.org/props/duration> "127"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://example.org/ns/tt0327056> <http://example.org/props/duration> "138"^^<http://www.w3.org/2001/XMLSchema#integer> .
-<http://example.org/ns/tt0875113> <http://example.org/props/budget> "12447638"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/ns/tt0875113> <http://example.org/props/budget> "15061642"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://example.org/ns/tt0278504> <http://example.org/props/usa_gross_income> "67355513"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://example.org/ns/tt0117951> <http://example.org/props/metascore> "83"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://example.org/ns/tt0120780> <http://example.org/props/usa_gross_income> "37562568"^^<http://www.w3.org/2001/XMLSchema#integer> .
@@ -13232,7 +13232,7 @@
 <http://example.org/ns/tt0046828> <http://example.org/props/votes> "4487"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://example.org/ns/tt0107611> <http://example.org/props/title> "Mr._Jones" .
 <http://example.org/ns/tt0416320> <http://example.org/props/duration> "124"^^<http://www.w3.org/2001/XMLSchema#integer> .
-<http://example.org/ns/tt0468492> <http://example.org/props/budget> "12215500000"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/ns/tt0468492> <http://example.org/props/budget> "10749640"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://example.org/ns/tt0327554> <http://example.org/props/duration> "104"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://example.org/ns/tt0069593> <http://example.org/props/description> "Euro-crime thriller about a high-tech criminal organization that aims to find the fabled treasure of the Order of the Knights Templar." .
 <http://example.org/ns/tt0120685> <http://example.org/props/avg_vote> "5.4"^^<http://www.w3.org/2001/XMLSchema#float> .
@@ -13277,7 +13277,7 @@
 <http://example.org/ns/tt0073109> <http://example.org/props/avg_vote> "7.5"^^<http://www.w3.org/2001/XMLSchema#float> .
 <http://example.org/ns/tt0160127> <http://example.org/props/reviews_from_critics> "196"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://example.org/ns/tt0120338> <http://example.org/props/usa_gross_income> "659363944"^^<http://www.w3.org/2001/XMLSchema#integer> .
-<http://example.org/ns/tt1865335> <http://example.org/props/budget> "4000000"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/ns/tt1865335> <http://example.org/props/budget> "4840000"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://example.org/ns/tt0094625> <http://example.org/props/avg_vote> "8.0"^^<http://www.w3.org/2001/XMLSchema#float> .
 <http://example.org/ns/tt0058430> <http://example.org/props/title> "Onibaba" .
 <http://example.org/ns/tt1289406> <http://example.org/props/reviews_from_users> "257"^^<http://www.w3.org/2001/XMLSchema#integer> .
@@ -13662,7 +13662,7 @@
 <http://example.org/ns/tt1153106> <http://example.org/props/votes> "592"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://example.org/ns/tt0070157> <http://example.org/props/usa_gross_income> "177930"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://example.org/ns/tt1227762> <http://example.org/props/title> "Aladin" .
-<http://example.org/ns/tt0069293> <http://example.org/props/budget> "1000000"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/ns/tt0069293> <http://example.org/props/budget> "13000"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://example.org/ns/tt0380599> <http://example.org/props/description> "An adaptation of the classic Dickens tale" .
 <http://example.org/ns/tt0142634> <http://example.org/props/description> " she goes on a wild journey into the world of Hollywood where she meets ..." .
 <http://example.org/ns/tt0219822> <http://example.org/props/avg_vote> "6.4"^^<http://www.w3.org/2001/XMLSchema#float> .
@@ -13673,7 +13673,7 @@
 <http://example.org/ns/tt0292513> <http://example.org/props/reviews_from_critics> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://example.org/ns/tt1227762> <http://example.org/props/year> "2009"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://example.org/ns/tt0110912> <http://example.org/props/usa_gross_income> "107928762"^^<http://www.w3.org/2001/XMLSchema#integer> .
-<http://example.org/ns/tt0082661> <http://example.org/props/budget> "10500000"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/ns/tt0082661> <http://example.org/props/budget> "6513528"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://example.org/ns/tt0053182> <http://example.org/props/title> "Porgy_and_Bess" .
 <http://example.org/ns/tt0088891> <http://example.org/props/reviews_from_critics> "10"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://example.org/ns/tt0161860> <http://example.org/props/worldwide_gross_income> "24322180"^^<http://www.w3.org/2001/XMLSchema#integer> .
@@ -13917,7 +13917,7 @@
 <http://example.org/ns/tt0134084> <http://example.org/props/usa_gross_income> "89143175"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://example.org/ns/tt0112843> <http://example.org/props/year> "1995"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://example.org/ns/tt0252963> <http://example.org/props/title> "The_Bunker" .
-<http://example.org/ns/tt0953318> <http://example.org/props/budget> "1500000"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/ns/tt0953318> <http://example.org/props/budget> "1815000"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://example.org/ns/tt0263101> <http://example.org/props/year> "2000"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://example.org/ns/tt0086879> <http://example.org/props/year> "1984"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://example.org/ns/tt0953318> <http://example.org/props/reviews_from_critics> "61"^^<http://www.w3.org/2001/XMLSchema#integer> .
@@ -14050,7 +14050,7 @@
 <http://example.org/ns/tt1042424> <http://example.org/props/reviews_from_critics> "45"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://example.org/ns/tt0117998> <http://example.org/props/reviews_from_critics> "119"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://example.org/ns/tt0150992> <http://example.org/props/usa_gross_income> "1007446"^^<http://www.w3.org/2001/XMLSchema#integer> .
-<http://example.org/ns/tt0472582> <http://example.org/props/budget> "1000000"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/ns/tt0472582> <http://example.org/props/budget> "770000"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://example.org/ns/tt0134847> <http://example.org/props/avg_vote> "7.1"^^<http://www.w3.org/2001/XMLSchema#float> .
 <http://example.org/ns/tt0099073> <http://example.org/props/year> "1990"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://example.org/ns/tt1031243> <http://example.org/props/metascore> "28"^^<http://www.w3.org/2001/XMLSchema#integer> .
@@ -14105,7 +14105,7 @@
 <http://example.org/ns/tt0266308> <http://example.org/props/reviews_from_critics> "204"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://example.org/ns/tt0268695> <http://example.org/props/description> "Hoping to alter the events of the past" .
 <http://example.org/ns/tt0107468> <http://example.org/props/duration> "101"^^<http://www.w3.org/2001/XMLSchema#integer> .
-<http://example.org/ns/tt0161860> <http://example.org/props/budget> "7000000"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/ns/tt0161860> <http://example.org/props/budget> "8470000"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://example.org/ns/tt0340855> <http://example.org/props/duration> "109"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://example.org/ns/tt0035575> <http://example.org/props/description> "The life of the renowned musical composer" .
 <http://example.org/ns/tt0061450> <http://example.org/props/reviews_from_users> "28"^^<http://www.w3.org/2001/XMLSchema#integer> .
@@ -14188,7 +14188,7 @@
 <http://example.org/ns/tt0159603> <http://example.org/props/avg_vote> "5.1"^^<http://www.w3.org/2001/XMLSchema#float> .
 <http://example.org/ns/tt0294870> <http://example.org/props/duration> "135"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://example.org/ns/tt0075811> <http://example.org/props/title> "The_Sorcerer's_Apprentice" .
-<http://example.org/ns/tt1846985> <http://example.org/props/budget> "8000000"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/ns/tt1846985> <http://example.org/props/budget> "9680000"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://example.org/ns/tt0209144> <http://example.org/props/year> "2000"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://example.org/ns/tt0101700> <http://example.org/props/reviews_from_critics> "61"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://example.org/ns/tt0075811> <http://example.org/props/reviews_from_users> "8"^^<http://www.w3.org/2001/XMLSchema#integer> .
@@ -14302,14 +14302,14 @@
 <http://example.org/ns/tt0469263> <http://example.org/props/title> "The_Astronaut_Farmer" .
 <http://example.org/ns/tt0120207> <http://example.org/props/duration> "97"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://example.org/ns/tt0430912> <http://example.org/props/usa_gross_income> "5971336"^^<http://www.w3.org/2001/XMLSchema#integer> .
-<http://example.org/ns/tt1298554> <http://example.org/props/budget> "7000000"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/ns/tt1298554> <http://example.org/props/budget> "8470000"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://example.org/ns/tt0120070> <http://example.org/props/usa_gross_income> "14328"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://example.org/ns/tt0119932> <http://example.org/props/reviews_from_critics> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://example.org/ns/tt0118688> <http://example.org/props/description> "Batman and Robin try to keep their relationship together even as they must stop Mr. Freeze and Poison Ivy from freezing Gotham City." .
 <http://example.org/ns/tt0120753> <http://example.org/props/usa_gross_income> "59989"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://example.org/ns/tt0183523> <http://example.org/props/metascore> "34"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://example.org/ns/tt0069704> <http://example.org/props/votes> "80176"^^<http://www.w3.org/2001/XMLSchema#integer> .
-<http://example.org/ns/tt1058601> <http://example.org/props/budget> "16200000"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/ns/tt1058601> <http://example.org/props/budget> "19602000"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://example.org/ns/tt0271027> <http://example.org/props/description> "A betrayed intelligence officer enlists the aid of a prostitute to prove his innocence from a deadly conspiracy while returning a favor to her." .
 <http://example.org/ns/tt0046903> <http://example.org/props/reviews_from_critics> "15"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://example.org/ns/tt0058331> <http://example.org/props/duration> "139"^^<http://www.w3.org/2001/XMLSchema#integer> .
@@ -14326,7 +14326,7 @@
 <http://example.org/ns/tt0139654> <http://example.org/props/reviews_from_users> "712"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://example.org/ns/tt0243655> <http://example.org/props/description> " in the hot summer of 1981" .
 <http://example.org/ns/tt0808417> <http://example.org/props/reviews_from_critics> "256"^^<http://www.w3.org/2001/XMLSchema#integer> .
-<http://example.org/ns/tt0281364> <http://example.org/props/budget> "15300000"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/ns/tt0281364> <http://example.org/props/budget> "18513000"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://example.org/ns/tt1001540> <http://example.org/props/description> "Top astrophysicist Sasha Greenberg has spent the past 17 years working in the United States. An invitation to speak at a Congress on Cosmology in his native Moscow brings him home for the ..." .
 <http://example.org/ns/tt0464141> <http://example.org/props/reviews_from_users> "340"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://example.org/ns/tt0340137> <http://example.org/props/title> "Grande_école" .
@@ -14395,7 +14395,7 @@
 <http://example.org/ns/tt0071385> <http://example.org/props/votes> "1069"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://example.org/ns/tt0340855> <http://example.org/props/votes> "133240"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://example.org/ns/tt0266308> <http://example.org/props/votes> "166461"^^<http://www.w3.org/2001/XMLSchema#integer> .
-<http://example.org/ns/tt0084654> <http://example.org/props/budget> "2600000"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/ns/tt0084654> <http://example.org/props/budget> "1612874"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://example.org/ns/tt0134084> <http://example.org/props/year> "2000"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://example.org/ns/tt0340855> <http://example.org/props/title> "Monster" .
 <http://example.org/ns/tt0268200> <http://example.org/props/avg_vote> "6.8"^^<http://www.w3.org/2001/XMLSchema#float> .
@@ -14494,7 +14494,7 @@
 <http://example.org/ns/tt0391198> <http://example.org/props/description> " one that locks a person in a powerful rage before claiming their life and spreading to another victim." .
 <http://example.org/ns/tt0806686> <http://example.org/props/reviews_from_users> "27"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://example.org/ns/tt0454848> <http://example.org/props/year> "2006"^^<http://www.w3.org/2001/XMLSchema#integer> .
-<http://example.org/ns/tt0150992> <http://example.org/props/budget> "60000000"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/ns/tt0150992> <http://example.org/props/budget> "840000"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://example.org/ns/tt0302674> <http://example.org/props/description> "A friendship between two young men is tested when they go for a hike in a desert and forget to bring any water or food with them." .
 <http://example.org/ns/tt0348593> <http://example.org/props/title> "The_Door_in_the_Floor" .
 <http://example.org/ns/tt0067017> <http://example.org/props/description> "Dracula conspires with a mad doctor to resurrect the Frankenstein Monster." .
@@ -14763,7 +14763,7 @@
 <http://example.org/ns/tt0892332> <http://example.org/props/reviews_from_critics> "10"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://example.org/ns/tt0246578> <http://example.org/props/title> "Donnie_Darko" .
 <http://example.org/ns/tt0051429> <http://example.org/props/description> " Cecile is afraid for her way of life." .
-<http://example.org/ns/tt0411267> <http://example.org/props/budget> "3000000"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/ns/tt0411267> <http://example.org/props/budget> "4230000"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://example.org/ns/tt0268695> <http://example.org/props/avg_vote> "6.0"^^<http://www.w3.org/2001/XMLSchema#float> .
 <http://example.org/ns/tt0107274> <http://example.org/props/avg_vote> "6.6"^^<http://www.w3.org/2001/XMLSchema#float> .
 <http://example.org/ns/tt0116790> <http://example.org/props/description> "A confirmed bachelor is in for the surprise of his life when a get-rich-quick scheme backfires - setting off a wild set of circumstances - and leaving him with a pint-sized new roommate." .
@@ -14954,7 +14954,7 @@
 <http://example.org/ns/tt1846985> <http://example.org/props/title> "Posti_in_piedi_in_paradiso" .
 <http://example.org/ns/tt0317919> <http://example.org/props/reviews_from_critics> "327"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://example.org/ns/tt0274558> <http://example.org/props/year> "2002"^^<http://www.w3.org/2001/XMLSchema#integer> .
-<http://example.org/ns/tt0094625> <http://example.org/props/budget> "1100000000"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/ns/tt0094625> <http://example.org/props/budget> "10010000"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://example.org/ns/tt0058331> <http://example.org/props/votes> "154320"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://example.org/ns/tt0372183> <http://example.org/props/description> "When Jason Bourne is framed for a CIA operation gone awry" .
 <http://example.org/ns/tt0084654> <http://example.org/props/usa_gross_income> "8144"^^<http://www.w3.org/2001/XMLSchema#integer> .
@@ -14989,7 +14989,7 @@
 <http://example.org/ns/tt0107611> <http://example.org/props/description> " a man who suffers from bipolar disorder is treated by a psychiatrist who begins to develop romantic feelings towards him." .
 <http://example.org/ns/tt0327056> <http://example.org/props/reviews_from_users> "1041"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://example.org/ns/tt0067133> <http://example.org/props/reviews_from_critics> "16"^^<http://www.w3.org/2001/XMLSchema#integer> .
-<http://example.org/ns/tt1429432> <http://example.org/props/budget> "5000000"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/ns/tt1429432> <http://example.org/props/budget> "6050000"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://example.org/ns/tt0286716> <http://example.org/props/avg_vote> "5.6"^^<http://www.w3.org/2001/XMLSchema#float> .
 <http://example.org/ns/tt0286716> <http://example.org/props/usa_gross_income> "132177234"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://example.org/ns/tt0082661> <http://example.org/props/description> "In 1938" .
@@ -15251,7 +15251,7 @@
 <http://example.org/ns/tt0112817> <http://example.org/props/worldwide_gross_income> "1037847"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://example.org/ns/tt0100403> <http://example.org/props/title> "Predator_2" .
 <http://example.org/ns/tt0295178> <http://example.org/props/usa_gross_income> "213307889"^^<http://www.w3.org/2001/XMLSchema#integer> .
-<http://example.org/ns/tt0453365> <http://example.org/props/budget> "1656000"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/ns/tt0453365> <http://example.org/props/budget> "2003760"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://example.org/ns/tt0140428> <http://example.org/props/reviews_from_users> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://example.org/ns/tt0811080> <http://example.org/props/description> "A young driver" .
 <http://example.org/ns/tt0094407> <http://example.org/props/duration> "88"^^<http://www.w3.org/2001/XMLSchema#integer> .
@@ -15502,7 +15502,7 @@
 <http://example.org/ns/tt0243655> <http://example.org/props/duration> "97"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://example.org/ns/tt0073109> <http://example.org/props/description> "During WW2" .
 <http://example.org/ns/tt0097240> <http://example.org/props/reviews_from_users> "104"^^<http://www.w3.org/2001/XMLSchema#integer> .
-<http://example.org/ns/tt0017136> <http://example.org/props/budget> "6000000"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/ns/tt0017136> <http://example.org/props/budget> "3722016"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://example.org/ns/tt0121297> <http://example.org/props/duration> "86"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://example.org/ns/tt0125211> <http://example.org/props/duration> "90"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://example.org/ns/tt0316654> <http://example.org/props/budget> "200000000"^^<http://www.w3.org/2001/XMLSchema#integer> .
@@ -15609,7 +15609,7 @@
 <http://example.org/ns/tt0372784> <http://example.org/props/reviews_from_users> "2911"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://example.org/ns/tt0399201> <http://example.org/props/title> "The_Island" .
 <http://example.org/ns/tt0109830> <http://example.org/props/worldwide_gross_income> "678229452"^^<http://www.w3.org/2001/XMLSchema#integer> .
-<http://example.org/ns/tt0287624> <http://example.org/props/budget> "10000000"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/ns/tt0287624> <http://example.org/props/budget> "7700000"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://example.org/ns/tt0062741> <http://example.org/props/duration> "92"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://example.org/ns/tt0077318> <http://example.org/props/title> "The_Chant_of_Jimmie_Blacksmith" .
 <http://example.org/ns/tt0083967> <http://example.org/props/description> "The story of" .
@@ -15625,7 +15625,7 @@
 <http://example.org/ns/tt0080678> <http://example.org/props/description> " there is revealed a person of kindness" .
 <http://example.org/ns/tt1151915> <http://example.org/props/metascore> "50"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://example.org/ns/tt0340855> <http://example.org/props/reviews_from_users> "573"^^<http://www.w3.org/2001/XMLSchema#integer> .
-<http://example.org/ns/tt0330602> <http://example.org/props/budget> "5000000"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/ns/tt0330602> <http://example.org/props/budget> "4150000"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://example.org/ns/tt0438488> <http://example.org/props/duration> "115"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://example.org/ns/tt0340377> <http://example.org/props/description> "When his only friend dies" .
 <http://example.org/ns/tt0075314> <http://example.org/props/reviews_from_critics> "289"^^<http://www.w3.org/2001/XMLSchema#integer> .
@@ -15886,7 +15886,7 @@
 <http://example.org/ns/tt0048021> <http://example.org/props/usa_gross_income> "517975"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://example.org/ns/tt0479143> <http://example.org/props/worldwide_gross_income> "155929020"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://example.org/ns/tt0356910> <http://example.org/props/year> "2005"^^<http://www.w3.org/2001/XMLSchema#integer> .
-<http://example.org/ns/tt0203166> <http://example.org/props/budget> "17000000"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/ns/tt0203166> <http://example.org/props/budget> "2040000"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://example.org/ns/tt0141926> <http://example.org/props/avg_vote> "6.6"^^<http://www.w3.org/2001/XMLSchema#float> .
 <http://example.org/ns/tt0286493> <http://example.org/props/description> " not a truck" .
 <http://example.org/ns/tt2287675> <http://example.org/props/reviews_from_users> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
@@ -15942,7 +15942,7 @@
 <http://example.org/ns/tt0268200> <http://example.org/props/metascore> "62"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://example.org/ns/tt0103793> <http://example.org/props/votes> "13853"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://example.org/ns/tt0119932> <http://example.org/props/votes> "1801"^^<http://www.w3.org/2001/XMLSchema#integer> .
-<http://example.org/ns/tt1922545> <http://example.org/props/budget> "30000000"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/ns/tt1922545> <http://example.org/props/budget> "420000"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://example.org/ns/tt0295178> <http://example.org/props/description> " Austin Powers must travel to 1975 and defeat the aptly named villain Goldmember" .
 <http://example.org/ns/tt0074740> <http://example.org/props/votes> "4902"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://example.org/ns/tt0083891> <http://example.org/props/reviews_from_critics> "9"^^<http://www.w3.org/2001/XMLSchema#integer> .
@@ -16103,7 +16103,7 @@
 <http://example.org/ns/tt0119572> <http://example.org/props/title> "Love_Jones" .
 <http://example.org/ns/tt0400426> <http://example.org/props/avg_vote> "3.1"^^<http://www.w3.org/2001/XMLSchema#float> .
 <http://example.org/ns/tt0055399> <http://example.org/props/year> "1962"^^<http://www.w3.org/2001/XMLSchema#integer> .
-<http://example.org/ns/tt0119472> <http://example.org/props/budget> "4300000"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/ns/tt0119472> <http://example.org/props/budget> "2667445"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://example.org/ns/tt0078748> <http://example.org/props/description> " one of the crew is attacked by a mysterious life form and they soon realize that its life cycle has merely begun." .
 <http://example.org/ns/tt0295178> <http://example.org/props/avg_vote> "6.2"^^<http://www.w3.org/2001/XMLSchema#float> .
 <http://example.org/ns/tt0119488> <http://example.org/props/reviews_from_critics> "132"^^<http://www.w3.org/2001/XMLSchema#integer> .
@@ -16509,7 +16509,7 @@
 <http://example.org/ns/tt0431197> <http://example.org/props/year> "2007"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://example.org/ns/tt0482571> <http://example.org/props/year> "2006"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://example.org/ns/tt0094667> <http://example.org/props/budget> "4000000"^^<http://www.w3.org/2001/XMLSchema#integer> .
-<http://example.org/ns/tt0346723> <http://example.org/props/budget> "120000000"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/ns/tt0346723> <http://example.org/props/budget> "1680000"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://example.org/ns/tt2048688> <http://example.org/props/title> "8:46" .
 <http://example.org/ns/tt1486193> <http://example.org/props/description> "A drama set centered around the war between Russia and Georgia" .
 <http://example.org/ns/tt0053619> <http://example.org/props/reviews_from_critics> "120"^^<http://www.w3.org/2001/XMLSchema#integer> .
@@ -16821,7 +16821,7 @@
 <http://example.org/ns/tt0418689> <http://example.org/props/reviews_from_critics> "270"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://example.org/ns/tt0358135> <http://example.org/props/reviews_from_critics> "105"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://example.org/ns/tt0489281> <http://example.org/props/reviews_from_critics> "145"^^<http://www.w3.org/2001/XMLSchema#integer> .
-<http://example.org/ns/tt0077318> <http://example.org/props/budget> "1280000"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/ns/tt0077318> <http://example.org/props/budget> "985600"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://example.org/ns/tt0453556> <http://example.org/props/title> "TMNT" .
 <http://example.org/ns/tt0313443> <http://example.org/props/worldwide_gross_income> "55495563"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://example.org/ns/tt0065723> <http://example.org/props/description> " plus gun-runners and gold-runners" .
@@ -16844,7 +16844,7 @@
 <http://example.org/ns/tt0329101> <http://example.org/props/worldwide_gross_income> "116632628"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://example.org/ns/tt0183523> <http://example.org/props/description> "When the first manned mission to Mars meets with a catastrophic and mysterious disaster after reporting an unidentified structure" .
 <http://example.org/ns/tt0399201> <http://example.org/props/metascore> "50"^^<http://www.w3.org/2001/XMLSchema#integer> .
-<http://example.org/ns/tt1227762> <http://example.org/props/budget> "500000000"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/ns/tt1227762> <http://example.org/props/budget> "7000000"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://example.org/ns/tt0107611> <http://example.org/props/duration> "114"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://example.org/ns/tt0416496> <http://example.org/props/description> " two very different women become a bank-robbing duo in an effort to combat a ruthless enforcer terrorizing their town." .
 <http://example.org/ns/tt0038367> <http://example.org/props/duration> "69"^^<http://www.w3.org/2001/XMLSchema#integer> .
@@ -17024,10 +17024,10 @@
 <http://example.org/ns/tt0089927> <http://example.org/props/description> " 261-pound fighter who has the backing of the Soviet Union." .
 <http://example.org/ns/tt0332379> <http://example.org/props/metascore> "82"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://example.org/ns/tt0445946> <http://example.org/props/avg_vote> "5.6"^^<http://www.w3.org/2001/XMLSchema#float> .
-<http://example.org/ns/tt0117951> <http://example.org/props/budget> "1500000"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/ns/tt0117951> <http://example.org/props/budget> "2115000"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://example.org/ns/tt0141369> <http://example.org/props/reviews_from_critics> "74"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://example.org/ns/tt0346491> <http://example.org/props/description> " the King of Macedonia and one of the greatest army leaders in the history of warfare" .
-<http://example.org/ns/tt0101020> <http://example.org/props/usa_gross_income> "33397149"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/ns/tt0101020> <http://example.org/props/usa_gross_income> "4341629"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://example.org/ns/tt0138097> <http://example.org/props/description> "" .
 <http://example.org/ns/tt0408306> <http://example.org/props/usa_gross_income> "47403685"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://example.org/ns/tt0066601> <http://example.org/props/title> "Zabriskie_Point" .
@@ -17237,7 +17237,7 @@
 <http://example.org/ns/tt0089537> <http://example.org/props/budget> "25000"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://example.org/ns/tt1314240> <http://example.org/props/description> "The cook at an international bank stumbles upon insider trading secrets. With his best friend" .
 <http://example.org/ns/tt0384537> <http://example.org/props/votes> "210865"^^<http://www.w3.org/2001/XMLSchema#integer> .
-<http://example.org/ns/tt1010313> <http://example.org/props/budget> "350000"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/ns/tt1010313> <http://example.org/props/budget> "423500"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://example.org/ns/tt0406816> <http://example.org/props/metascore> "53"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://example.org/ns/tt0340377> <http://example.org/props/duration> "89"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://example.org/ns/tt0486640> <http://example.org/props/description> " but a far more sinister intent." .
@@ -17387,7 +17387,7 @@
 <http://example.org/ns/tt0892332> <http://example.org/props/reviews_from_users> "10"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://example.org/ns/tt0068883> <http://example.org/props/description> "The reign of the tormented Ludwig" .
 <http://example.org/ns/tt0469263> <http://example.org/props/worldwide_gross_income> "11130889"^^<http://www.w3.org/2001/XMLSchema#integer> .
-<http://example.org/ns/tt0448124> <http://example.org/props/budget> "3000000"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/ns/tt0448124> <http://example.org/props/budget> "3630000"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://example.org/ns/tt0162650> <http://example.org/props/duration> "99"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://example.org/ns/tt0102368> <http://example.org/props/description> " the romantic daughter of a country squire marries a dull country doctor. To escape boredom" .
 <http://example.org/ns/tt0097498> <http://example.org/props/description> " the girl's father finds a magic crystal that can bring the life back to dead objects. ..." .
@@ -17519,7 +17519,7 @@
 <http://example.org/ns/tt0159603> <http://example.org/props/description> "Guy and Albert" .
 <http://example.org/ns/tt0118588> <http://example.org/props/duration> "115"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://example.org/ns/tt0258463> <http://example.org/props/description> "A man is picked up by a fishing boat" .
-<http://example.org/ns/tt0416496> <http://example.org/props/budget> "32000000"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/ns/tt0416496> <http://example.org/props/budget> "38720000"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://example.org/ns/tt0489235> <http://example.org/props/duration> "84"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://example.org/ns/tt0259711> <http://example.org/props/title> "Vanilla_Sky" .
 <http://example.org/ns/tt0106335> <http://example.org/props/reviews_from_users> "37"^^<http://www.w3.org/2001/XMLSchema#integer> .
@@ -17628,7 +17628,7 @@
 <http://example.org/ns/tt0085811> <http://example.org/props/metascore> "45"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://example.org/ns/tt0021884> <http://example.org/props/reviews_from_users> "569"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://example.org/ns/tt0125439> <http://example.org/props/reviews_from_critics> "141"^^<http://www.w3.org/2001/XMLSchema#integer> .
-<http://example.org/ns/tt0803047> <http://example.org/props/budget> "2600000"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/ns/tt0803047> <http://example.org/props/budget> "3146000"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://example.org/ns/tt0260494> <http://example.org/props/year> "1988"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://example.org/ns/tt0329767> <http://example.org/props/usa_gross_income> "235294"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://example.org/ns/tt0022700> <http://example.org/props/reviews_from_critics> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
@@ -17639,7 +17639,7 @@
 <http://example.org/ns/tt0289879> <http://example.org/props/duration> "113"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://example.org/ns/tt0765010> <http://example.org/props/year> "2009"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://example.org/ns/tt0275230> <http://example.org/props/title> "Blood:_The_Last_Vampire" .
-<http://example.org/ns/tt0464141> <http://example.org/props/budget> "3400000"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/ns/tt0464141> <http://example.org/props/budget> "4114000"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://example.org/ns/tt0211941> <http://example.org/props/duration> "93"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://example.org/ns/tt0453451> <http://example.org/props/votes> "113282"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://example.org/ns/tt0120586> <http://example.org/props/usa_gross_income> "6719864"^^<http://www.w3.org/2001/XMLSchema#integer> .
@@ -17647,7 +17647,7 @@
 <http://example.org/ns/tt0332379> <http://example.org/props/worldwide_gross_income> "131095614"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://example.org/ns/tt0094667> <http://example.org/props/avg_vote> "7.0"^^<http://www.w3.org/2001/XMLSchema#float> .
 <http://example.org/ns/tt0086879> <http://example.org/props/avg_vote> "8.3"^^<http://www.w3.org/2001/XMLSchema#float> .
-<http://example.org/ns/tt0425112> <http://example.org/props/budget> "8000000"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/ns/tt0425112> <http://example.org/props/budget> "11280000"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://example.org/ns/tt0219822> <http://example.org/props/duration> "96"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://example.org/ns/tt0056801> <http://example.org/props/votes> "106454"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://example.org/ns/tt0230600> <http://example.org/props/usa_gross_income> "96522687"^^<http://www.w3.org/2001/XMLSchema#integer> .
@@ -17762,7 +17762,7 @@
 <http://example.org/ns/tt0907657> <http://example.org/props/title> "Once" .
 <http://example.org/ns/tt0159797> <http://example.org/props/year> "1999"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://example.org/ns/tt0107505> <http://example.org/props/description> " a humanoid robot which follows the motions of a man in a special control suit. He has offered the ..." .
-<http://example.org/ns/tt0242527> <http://example.org/props/budget> "4158370"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/ns/tt0242527> <http://example.org/props/budget> "5863302"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://example.org/ns/tt1935179> <http://example.org/props/duration> "130"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://example.org/ns/tt0071385> <http://example.org/props/year> "1974"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://example.org/ns/tt0421994> <http://example.org/props/metascore> "49"^^<http://www.w3.org/2001/XMLSchema#integer> .
@@ -17831,7 +17831,7 @@
 <http://example.org/ns/tt0124819> <http://example.org/props/budget> "1000000"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://example.org/ns/tt1042424> <http://example.org/props/avg_vote> "6.8"^^<http://www.w3.org/2001/XMLSchema#float> .
 <http://example.org/ns/tt0453451> <http://example.org/props/reviews_from_critics> "156"^^<http://www.w3.org/2001/XMLSchema#integer> .
-<http://example.org/ns/tt0251052> <http://example.org/props/budget> "30000000"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/ns/tt0251052> <http://example.org/props/budget> "16500000"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://example.org/ns/tt0831884> <http://example.org/props/avg_vote> "6.7"^^<http://www.w3.org/2001/XMLSchema#float> .
 <http://example.org/ns/tt0401711> <http://example.org/props/description> " reinvented and awakened." .
 <http://example.org/ns/tt0349903> <http://example.org/props/reviews_from_critics> "207"^^<http://www.w3.org/2001/XMLSchema#integer> .
@@ -18104,7 +18104,7 @@
 <http://example.org/ns/tt0078346> <http://example.org/props/votes> "156397"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://example.org/ns/tt0443489> <http://example.org/props/avg_vote> "6.5"^^<http://www.w3.org/2001/XMLSchema#float> .
 <http://example.org/ns/tt0090856> <http://example.org/props/usa_gross_income> "12308521"^^<http://www.w3.org/2001/XMLSchema#integer> .
-<http://example.org/ns/tt0386038> <http://example.org/props/budget> "3000000"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/ns/tt0386038> <http://example.org/props/budget> "3630000"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://example.org/ns/tt0058329> <http://example.org/props/worldwide_gross_income> "7095"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://example.org/ns/tt0119472> <http://example.org/props/reviews_from_critics> "19"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://example.org/ns/tt0891520> <http://example.org/props/description> " a woman's spirit with a horribly disfigured face who is intent on kidnapping children for unknown reasons." .
@@ -18196,7 +18196,7 @@
 <http://example.org/ns/tt0107468> <http://example.org/props/worldwide_gross_income> "1498795"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://example.org/ns/tt0067133> <http://example.org/props/year> "1971"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://example.org/ns/tt0365478> <http://example.org/props/reviews_from_users> "71"^^<http://www.w3.org/2001/XMLSchema#integer> .
-<http://example.org/ns/tt0448267> <http://example.org/props/budget> "39000000"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/ns/tt0448267> <http://example.org/props/budget> "4680000"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://example.org/ns/tt0100507> <http://example.org/props/description> "Reluctantly retired from fighting" .
 <http://example.org/ns/tt0118887> <http://example.org/props/description> "The Sheriff of a suburban New Jersey community" .
 <http://example.org/ns/tt0087363> <http://example.org/props/votes> "191971"^^<http://www.w3.org/2001/XMLSchema#integer> .
@@ -18210,7 +18210,7 @@
 <http://example.org/ns/tt0346156> <http://example.org/props/worldwide_gross_income> "57947036"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://example.org/ns/tt0138074> <http://example.org/props/reviews_from_critics> "24"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://example.org/ns/tt0356910> <http://example.org/props/usa_gross_income> "186336279"^^<http://www.w3.org/2001/XMLSchema#integer> .
-<http://example.org/ns/tt0322545> <http://example.org/props/budget> "6000000"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/ns/tt0322545> <http://example.org/props/budget> "7260000"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://example.org/ns/tt0118880> <http://example.org/props/votes> "271350"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://example.org/ns/tt0109707> <http://example.org/props/reviews_from_users> "464"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://example.org/ns/tt0102368> <http://example.org/props/reviews_from_critics> "33"^^<http://www.w3.org/2001/XMLSchema#integer> .
@@ -18298,7 +18298,7 @@
 <http://example.org/ns/tt0371746> <http://example.org/props/title> "Iron_Man" .
 <http://example.org/ns/tt0411195> <http://example.org/props/worldwide_gross_income> "3942254"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://example.org/ns/tt0893402> <http://example.org/props/title> "Franklyn" .
-<http://example.org/ns/tt0101700> <http://example.org/props/budget> "24000000"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/ns/tt0101700> <http://example.org/props/budget> "4440216"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://example.org/ns/tt0448134> <http://example.org/props/description> "A team of international astronauts are sent on a dangerous mission to reignite the dying Sun with a nuclear fission bomb in 2057." .
 <http://example.org/ns/tt0289879> <http://example.org/props/usa_gross_income> "57938693"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://example.org/ns/tt1290472> <http://example.org/props/reviews_from_critics> "7"^^<http://www.w3.org/2001/XMLSchema#integer> .
@@ -18703,7 +18703,7 @@
 <http://example.org/ns/tt0489281> <http://example.org/props/avg_vote> "6.4"^^<http://www.w3.org/2001/XMLSchema#float> .
 <http://example.org/ns/tt0417148> <http://example.org/props/votes> "130298"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://example.org/ns/tt0089927> <http://example.org/props/duration> "91"^^<http://www.w3.org/2001/XMLSchema#integer> .
-<http://example.org/ns/tt0274155> <http://example.org/props/budget> "110000000"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/ns/tt0274155> <http://example.org/props/budget> "20350990"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://example.org/ns/tt0099073> <http://example.org/props/description> " the family and their children try to make themselves a better future in the so-called promised land." .
 <http://example.org/ns/tt1099212> <http://example.org/props/description> " a gorgeous boy with a secret." .
 <http://example.org/ns/tt0348836> <http://example.org/props/reviews_from_users> "390"^^<http://www.w3.org/2001/XMLSchema#integer> .
