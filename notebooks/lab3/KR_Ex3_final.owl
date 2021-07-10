@@ -27,7 +27,7 @@
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
 	<rdfs:subPropertyOf rdf:resource="http://example.org/props/userProperty"/>
 	<rdfs:domain rdf:resource="http://example.org/ns/User"/>
-	<rdfs:range rdf:resource="http://example.org/stn/MovieReviews"/>
+	<rdfs:range rdf:resource="http://example.org/stn/MovieReview"/>
 </rdf:Description>
 <!--  -->
 <!-- http://example.org/pq/movieReviewQualifierProperty -->
@@ -35,14 +35,14 @@
 <rdf:Description rdf:about="http://example.org/pq/movieReviewQualifierProperty">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
 	<rdfs:subPropertyOf rdf:resource="http://example.org/pq/qualifierProperty"/>
-	<rdfs:domain rdf:resource="http://example.org/stn/MovieReviews"/>
+	<rdfs:domain rdf:resource="http://example.org/stn/MovieReview"/>
 </rdf:Description>
 <!--  -->
 <!-- http://example.org/pq/qualifierProperty -->
 
 <rdf:Description rdf:about="http://example.org/pq/qualifierProperty">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
-	<rdfs:domain rdf:resource="http://example.org/stn/Statements"/>
+	<rdfs:domain rdf:resource="http://example.org/stn/Statement"/>
 </rdf:Description>
 <!--  -->
 <!-- http://example.org/props/awardProperty -->
@@ -443,7 +443,7 @@
 <rdf:Description rdf:about="http://example.org/ps/movieReviewStatementProperty">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
 	<rdfs:subPropertyOf rdf:resource="http://example.org/ps/statementProperty"/>
-	<rdfs:domain rdf:resource="http://example.org/stn/MovieReviews"/>
+	<rdfs:domain rdf:resource="http://example.org/stn/MovieReview"/>
 </rdf:Description>
 <!--  -->
 <!-- http://example.org/ps/references -->
@@ -451,7 +451,7 @@
 <rdf:Description rdf:about="http://example.org/ps/references">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
 	<rdfs:subPropertyOf rdf:resource="http://example.org/ps/movieReviewStatementProperty"/>
-	<rdfs:domain rdf:resource="http://example.org/stn/MovieReviews"/>
+	<rdfs:domain rdf:resource="http://example.org/stn/MovieReview"/>
 	<rdfs:range rdf:resource="http://example.org/ns/Movie"/>
 </rdf:Description>
 <!--  -->
@@ -459,7 +459,7 @@
 
 <rdf:Description rdf:about="http://example.org/ps/statementProperty">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
-	<rdfs:domain rdf:resource="http://example.org/stn/Statements"/>
+	<rdfs:domain rdf:resource="http://example.org/stn/Statement"/>
 </rdf:Description>
 <!--  -->
 <!--  -->
@@ -476,7 +476,7 @@
 <rdf:Description rdf:about="http://example.org/pq/comment">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
 	<rdfs:subPropertyOf rdf:resource="http://example.org/pq/movieReviewQualifierDataProperty"/>
-	<rdfs:domain rdf:resource="http://example.org/stn/MovieReviews"/>
+	<rdfs:domain rdf:resource="http://example.org/stn/MovieReview"/>
 	<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
 </rdf:Description>
 <!--  -->
@@ -485,20 +485,21 @@
 <rdf:Description rdf:about="http://example.org/pq/movieReviewQualifierDataProperty">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
 	<rdfs:subPropertyOf rdf:resource="http://example.org/pq/qualifierDataProperty"/>
-	<rdfs:domain rdf:resource="http://example.org/stn/MovieReviews"/>
+	<rdfs:domain rdf:resource="http://example.org/stn/MovieReview"/>
 </rdf:Description>
 <!--  -->
 <!-- http://example.org/pq/qualifierDataProperty -->
 
 <rdf:Description rdf:about="http://example.org/pq/qualifierDataProperty">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
-	<rdfs:domain rdf:resource="http://example.org/stn/Statements"/>
+	<rdfs:domain rdf:resource="http://example.org/stn/Statement"/>
 </rdf:Description>
 <!--  -->
 <!-- http://example.org/props/hasBudget -->
 
 <rdf:Description rdf:about="http://example.org/props/hasBudget">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+	<rdfs:subPropertyOf rdf:resource="http://example.org/props/movieDataProperty"/>
 	<rdfs:domain rdf:resource="http://example.org/ns/Movie"/>
 	<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
 </rdf:Description>
@@ -507,6 +508,7 @@
 
 <rdf:Description rdf:about="http://example.org/props/hasDescription">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+	<rdfs:subPropertyOf rdf:resource="http://example.org/props/movieDataProperty"/>
 	<rdfs:domain rdf:resource="http://example.org/ns/Movie"/>
 	<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
 </rdf:Description>
@@ -515,6 +517,7 @@
 
 <rdf:Description rdf:about="http://example.org/props/hasDuration">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+	<rdfs:subPropertyOf rdf:resource="http://example.org/props/movieDataProperty"/>
 	<rdfs:domain rdf:resource="http://example.org/ns/Movie"/>
 	<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
 </rdf:Description>
@@ -523,6 +526,7 @@
 
 <rdf:Description rdf:about="http://example.org/props/hasMetascore">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+	<rdfs:subPropertyOf rdf:resource="http://example.org/props/movieDataProperty"/>
 	<rdfs:domain rdf:resource="http://example.org/ns/Movie"/>
 	<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
 </rdf:Description>
@@ -531,6 +535,7 @@
 
 <rdf:Description rdf:about="http://example.org/props/hasReviewsFromCritics">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+	<rdfs:subPropertyOf rdf:resource="http://example.org/props/movieDataProperty"/>
 	<rdfs:domain rdf:resource="http://example.org/ns/Movie"/>
 	<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
 </rdf:Description>
@@ -539,6 +544,7 @@
 
 <rdf:Description rdf:about="http://example.org/props/hasReviewsFromUsers">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+	<rdfs:subPropertyOf rdf:resource="http://example.org/props/movieDataProperty"/>
 	<rdfs:domain rdf:resource="http://example.org/ns/Movie"/>
 	<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
 </rdf:Description>
@@ -547,6 +553,7 @@
 
 <rdf:Description rdf:about="http://example.org/props/hasTitle">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+	<rdfs:subPropertyOf rdf:resource="http://example.org/props/movieDataProperty"/>
 	<rdfs:domain rdf:resource="http://example.org/ns/Movie"/>
 	<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
 </rdf:Description>
@@ -555,6 +562,7 @@
 
 <rdf:Description rdf:about="http://example.org/props/hasUSAGrossIncome">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+	<rdfs:subPropertyOf rdf:resource="http://example.org/props/movieDataProperty"/>
 	<rdfs:domain rdf:resource="http://example.org/ns/Movie"/>
 	<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
 </rdf:Description>
@@ -563,6 +571,7 @@
 
 <rdf:Description rdf:about="http://example.org/props/hasVotes">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+	<rdfs:subPropertyOf rdf:resource="http://example.org/props/movieDataProperty"/>
 	<rdfs:domain rdf:resource="http://example.org/ns/Movie"/>
 	<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
 </rdf:Description>
@@ -571,14 +580,23 @@
 
 <rdf:Description rdf:about="http://example.org/props/hasWorldwideGrossIncome">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+	<rdfs:subPropertyOf rdf:resource="http://example.org/props/movieDataProperty"/>
 	<rdfs:domain rdf:resource="http://example.org/ns/Movie"/>
 	<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+</rdf:Description>
+<!--  -->
+<!-- http://example.org/props/movieDataProperty -->
+
+<rdf:Description rdf:about="http://example.org/props/movieDataProperty">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+	<rdfs:domain rdf:resource="http://example.org/ns/Movie"/>
 </rdf:Description>
 <!--  -->
 <!-- http://example.org/props/releasedInYear -->
 
 <rdf:Description rdf:about="http://example.org/props/releasedInYear">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+	<rdfs:subPropertyOf rdf:resource="http://example.org/props/movieDataProperty"/>
 	<rdfs:domain rdf:resource="http://example.org/ns/Movie"/>
 	<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
 </rdf:Description>
@@ -1212,16 +1230,16 @@
 	<rdfs:subClassOf rdf:resource="http://example.org/ns/Award"/>
 </rdf:Description>
 <!--  -->
-<!-- http://example.org/stn/MovieReviews -->
+<!-- http://example.org/stn/MovieReview -->
 
-<rdf:Description rdf:about="http://example.org/stn/MovieReviews">
+<rdf:Description rdf:about="http://example.org/stn/MovieReview">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-	<rdfs:subClassOf rdf:resource="http://example.org/stn/Statements"/>
+	<rdfs:subClassOf rdf:resource="http://example.org/stn/Statement"/>
 </rdf:Description>
 <!--  -->
-<!-- http://example.org/stn/Statements -->
+<!-- http://example.org/stn/Statement -->
 
-<rdf:Description rdf:about="http://example.org/stn/Statements">
+<rdf:Description rdf:about="http://example.org/stn/Statement">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
 </rdf:Description>
 <!--  -->
