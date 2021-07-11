@@ -80651,9 +80651,9 @@
 	<rdf:type rdf:resource="http://example.org/ns/Company"/>
 </rdf:Description>
 <!--  -->
-<!-- http://example.org/ns/Bonaire,_Sint_Eustatius,_and_Saba -->
+<!-- http://example.org/ns/Bonaire_SintEustatius_Saba -->
 
-<rdf:Description rdf:about="http://example.org/ns/Bonaire,_Sint_Eustatius,_and_Saba">
+<rdf:Description rdf:about="http://example.org/ns/Bonaire_SintEustatius_Saba">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 	<rdf:type rdf:resource="http://example.org/ns/Country"/>
 	<prop:isPartOf rdf:resource="http://example.org/ns/North_America"/>
@@ -80855,9 +80855,9 @@
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 </rdf:Description>
 <!--  -->
-<!-- http://example.org/ns/Cocos_[Keeling]_Islands -->
+<!-- http://example.org/ns/Cocos_%5BKeeling%5D_Islands -->
 
-<rdf:Description rdf:about="http://example.org/ns/Cocos_[Keeling]_Islands">
+<rdf:Description rdf:about="http://example.org/ns/Cocos_%5BKeeling%5D_Islands">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 	<rdf:type rdf:resource="http://example.org/ns/Country"/>
 	<prop:isPartOf rdf:resource="http://example.org/ns/Asia"/>
