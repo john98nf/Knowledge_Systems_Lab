@@ -17,3 +17,6 @@ This repository includes the python notebooks, which were created for lab exerci
 * [Lab2](https://github.com/john98nf/Knowledge_Systems_Lab/tree/main/notebooks/lab2): 
   * Ontology Creation with [Owlready2](https://pypi.org/project/Owlready2/) & [Protégé](https://protege.stanford.edu/).
   * Queries via [GraphDB](https://graphdb.ontotext.com/).
+* [Lab3](https://github.com/john98nf/Knowledge_Systems_Lab/tree/main/notebooks/lab3):
+  * Creation of Axioms with [Protégé](https://protege.stanford.edu/)
+  * Further knowledge expansion.
